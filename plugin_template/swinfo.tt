@@ -26,7 +26,7 @@
     {
       "id":  "SpaceWarp",
       "version": {
-        "min": "1.2.0",
+        "min": "1.4.0",
         "max": "*"
       }
     }

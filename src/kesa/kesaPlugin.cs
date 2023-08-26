@@ -1,6 +1,7 @@
 ﻿using BepInEx;
 using SpaceWarp;
 using SpaceWarp.API.Mods;
+using System.Runtime.InteropServices;
 
 namespace kesa;
 
@@ -15,17 +16,26 @@ public class KesaPlugin : BaseSpaceWarpPlugin
     public static string Path { get; private set; }
     private void Awake()
     {
-
+        //Logger.LogInfo("Kesa Awake");
     }
 
     public override void OnPreInitialized()
     {
+        //Logger.LogInfo("Kesa OnPreInitialized");
         KesaPlugin.Path = base.PluginFolderPath;
     }
 
     public override void OnInitialized()
     {
+        //Logger.LogInfo("Kesa OnInitialized");
         base.OnInitialized();
-        Instance = this;
+
+        Logger.LogInfo("Kesa sound bank");
+        byte[] bytes = File.ReadAllBytes(PluginFolderPath + @"/assets/soundbank/kesa.bnk");
+        Logger.LogInfo("Kesa sound bank:" + AkSoundEngine.LoadBankMemoryView(GCHandle.Alloc(bytes, GCHandleType.Pinned).AddrOfPinnedObject(), (uint)bytes.Length, out uint bankId));
+    }
+    public void Playsoundevent(string AKEvent)
+    {
+        //Logger.LogInfo("Kesa play sound : " + AKEvent);
     }
 }
