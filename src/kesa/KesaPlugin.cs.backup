@@ -29,10 +29,9 @@ public class KesaPlugin : BaseSpaceWarpPlugin
     {
         //Logger.LogInfo("Kesa OnInitialized");
         base.OnInitialized();
-        Instance = this;
-        Logger.LogInfo("Kesa Mod Initialized");
-        //Logger.LogInfo("Kesa sound bank");
-        //byte[] bytes = File.ReadAllBytes(PluginFolderPath + @"/assets/soundbank/kesa.bnk");
-        //Logger.LogInfo("Kesa sound bank:" + AkSoundEngine.LoadBankMemoryView(GCHandle.Alloc(bytes, GCHandleType.Pinned).AddrOfPinnedObject(), (uint)bytes.Length, out uint bankId));
+
+        Logger.LogInfo("Kesa sound bank");
+        byte[] bytes = File.ReadAllBytes(PluginFolderPath + @"/assets/soundbank/kesa.bnk");
+        Logger.LogInfo("Kesa sound bank:" + AkSoundEngine.LoadBankMemoryView(GCHandle.Alloc(bytes, GCHandleType.Pinned).AddrOfPinnedObject(), (uint)bytes.Length, out uint bankId));
     }
 }

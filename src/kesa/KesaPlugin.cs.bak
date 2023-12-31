@@ -1,0 +1,240 @@
+﻿using BepInEx;
+using HarmonyLib;
+using JetBrains.Annotations;
+using KSP.OAB;
+using KSP.Sim;
+using KSP.Sim.impl;
+using SpaceWarp;
+using SpaceWarp.API.Mods;
+using UnityEngine;
+using System.Runtime.InteropServices;
+using RTG;
+using static RTG.Object2ObjectSnap;
+using KSP.Rendering;
+
+namespace kesa;
+
+[BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
+[BepInDependency(SpaceWarpPlugin.ModGuid, SpaceWarpPlugin.ModVer)]
+public class KesaPlugin : BaseSpaceWarpPlugin
+{
+    [PublicAPI] public const string ModGuid = MyPluginInfo.PLUGIN_GUID;
+    [PublicAPI] public const string ModName = MyPluginInfo.PLUGIN_NAME;
+    [PublicAPI] public const string ModVer = MyPluginInfo.PLUGIN_VERSION;
+    public static KesaPlugin Instance { get; set; }
+    public static string Path { get; private set; }
+    private static Shader _myShader;
+
+    private void Awake()
+    {
+
+    }
+
+    public override void OnPreInitialized()
+    {
+        KesaPlugin.Path = base.PluginFolderPath;
+    }
+
+    public override void OnInitialized()
+    {
+        base.OnInitialized();
+        Instance = this;
+        Logger.LogInfo("Kesa Mod Initialized");
+        Logger.LogInfo("Kesa sound bank");
+        byte[] bytes = File.ReadAllBytes(PluginFolderPath + @"/assets/soundbank/kesa.bnk");
+        Logger.LogInfo("Kesa sound bank:" + AkSoundEngine.LoadBankMemoryView(GCHandle.Alloc(bytes, GCHandleType.Pinned).AddrOfPinnedObject(), (uint)bytes.Length, out uint bankId));
+
+        Harmony.CreateAndPatchAll(typeof(KesaPlugin));
+
+    }
+    // récupération du gameobject en fonction de son nom
+    internal static void KesaVFXBrowse(GameObject topParentGO)
+    {
+        Material[] mats;
+        SkinnedMeshRenderer SMR;
+        Material[] recupmats;
+        for (int i = 0; i<topParentGO.transform.childCount; i++)
+        {
+            Instance.Logger.LogInfo("CHILD : " + topParentGO.transform.GetChild(i).gameObject.name);
+            switch (topParentGO.transform.GetChild(i).gameObject.name)
+            {
+                case "kesavfx0":
+                    //recupmats = catchmat("engine_1v_methalox_cornet", "vfx_exh_mesh_main_01d");
+                    //Instance.Logger.LogInfo("Function KesaVFXBrowse Affectation material kesavfx0");
+                    SMR = topParentGO.transform.GetChild(i).GetComponentInChildren<SkinnedMeshRenderer>();
+                    mats =KesaSkinned(SMR, "KSP2/VFX/Particles/VFX_Exhaust_HeatRefraction");
+                    SMR.materials = mats;
+                    // SMR.materials = recupmats;
+                    break;
+                case "kesavfx1":
+                    SMR = topParentGO.transform.GetChild(i).GetComponentInChildren<SkinnedMeshRenderer>();
+                    mats = KesaSkinned(SMR, "KSP2/VFX/Particles/VFX_Exhaust");
+                    SMR.materials = mats;
+                    break;
+                case "kesavfx2":
+                    SMR = topParentGO.transform.GetChild(i).GetComponentInChildren<SkinnedMeshRenderer>();
+                    mats = KesaSkinned(SMR, "KSP2/VFX/Particles/VFX_Exhaust");
+                    SMR.materials = mats;
+                    break;
+            }
+            KesaVFXBrowse(topParentGO.transform.GetChild(i).gameObject);
+        }
+    }
+    internal static Material[] KesaSkinned(SkinnedMeshRenderer renderer, string shad)
+    {
+        Material[] mats = renderer.materials;
+        int nb = mats.Length;
+        Shader replaceshader;
+        Instance.Logger.LogInfo("KESAFX KesaSkinned -> " + mats.Length + " => " + shad);
+        if (nb > 0)
+        {
+           if (replaceshader = Shader.Find(shad))
+            {
+                Instance.Logger.LogInfo("KESAFX MAT SHADER OK");
+                mats[0].shader = replaceshader;
+            }
+        }
+        return mats;
+    }
+    internal static Material[] catchmat(string nomobj1, string nomobj2, string typemat)
+    {
+        Instance.Logger.LogInfo("Function catchmat : " + nomobj1 + " / " + nomobj2);
+        GameObject obj;
+        Material[] mats;
+        if (obj = GameObject.Find(nomobj1))
+        {
+            Instance.Logger.LogInfo("FIND catchmat : " + nomobj1);
+            GameObject objm = GetChildGameObject(obj, nomobj2);
+            if (objm != null)
+            {
+                Instance.Logger.LogInfo("FIND catchmat : " + nomobj2);
+                switch (typemat)
+                {
+                    case "mat":
+                        mats = objm.GetComponent<Renderer>().materials;
+                        return mats;
+                        break;
+                    case "skinnedmat":
+                        SkinnedMeshRenderer SMR = objm.GetComponentInChildren<SkinnedMeshRenderer>();
+                        mats = SMR.materials;
+                        return mats;
+                        break;
+                }
+            }
+            else
+            {
+                Instance.Logger.LogInfo("NOT FIND : " + nomobj2);
+            }
+        }
+        return null;
+    }
+    internal static GameObject GetChildGameObject(GameObject fromGameObject, string withName)
+    {
+        GameObject res = null;
+        if (fromGameObject.name == withName) return fromGameObject;
+        else
+        {
+            for (int i = 0; i < fromGameObject.transform.childCount; i++)
+            {
+                res = GetChildGameObject(fromGameObject.transform.GetChild(i).gameObject, withName);
+                if (res) return res;
+            }
+        }
+        return null;
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(ObjectAssemblyPartTracker), nameof(ObjectAssemblyPartTracker.OnPartPrefabLoaded))]
+    internal static void KesaVFXForPart(IObjectAssemblyAvailablePart obj, ref GameObject prefab)
+    {
+        Material[] recupmats;
+        Material[] mats;
+        SkinnedMeshRenderer SMR;
+        GameObject objtarget;
+        if (obj.Name == "engine")
+        {
+            recupmats = catchmat("engine_1v_methalox_cornet", "vfx_exh_mesh_main_01d", "skinnedmat");
+            objtarget = GetChildGameObject(prefab, "kesavfx0");
+            if (objtarget != null)
+            {
+                Instance.Logger.LogInfo("AFFECT kesavfx0 : ");
+                SMR = objtarget.GetComponentInChildren<SkinnedMeshRenderer>();
+                if (SMR != null)
+                {
+                    SMR.materials = recupmats;
+                    Instance.Logger.LogInfo("OK");
+                }
+                /*
+                GameObject objtarget = GetChildGameObject(prefab, "nozzle");
+                if (objtarget != null)
+                {
+                    objtarget.GetComponent<Renderer>().materials= recupmats;
+                }
+                */
+            }
+            recupmats = catchmat("engine_1v_methalox_cornet", "vfx_exh_mesh_main_01", "skinnedmat");
+            objtarget = GetChildGameObject(prefab, "kesavfx1");
+            if (objtarget != null)
+            {
+                Instance.Logger.LogInfo("AFFECT kesavfx1 : ");
+                SMR = objtarget.GetComponentInChildren<SkinnedMeshRenderer>();
+                if (SMR != null)
+                {
+                    SMR.materials = recupmats;
+                    Instance.Logger.LogInfo("OK");
+                }
+            }
+            recupmats = catchmat("engine_1v_methalox_cornet", "vfx_exh_mesh_main_01b", "skinnedmat");
+            objtarget = GetChildGameObject(prefab, "kesavfx2");
+            if (objtarget != null)
+            {
+                Instance.Logger.LogInfo("AFFECT kesavfx2 : ");
+                SMR = objtarget.GetComponentInChildren<SkinnedMeshRenderer>();
+                if (SMR != null)
+                {
+                    SMR.materials = recupmats;
+                    Instance.Logger.LogInfo("OK");
+                }
+            }
+            recupmats = catchmat("engine_1v_methalox_cornet", "vfx_exh_mesh_main_01c", "skinnedmat");
+            objtarget = GetChildGameObject(prefab, "kesavfx3");
+            if (objtarget != null)
+            {
+                Instance.Logger.LogInfo("AFFECT kesavfx3 : ");
+                SMR = objtarget.GetComponentInChildren<SkinnedMeshRenderer>();
+                if (SMR != null)
+                {
+                    SMR.materials = recupmats;
+                    Instance.Logger.LogInfo("OK");
+                }
+            }
+            /*
+            if (prefab.transform.childCount > 0)
+            {
+                Instance.Logger.LogInfo("KESAVFX1=" + prefab.name + " - " + prefab.transform.GetChild(0).gameObject.name);
+                if (prefab.transform.GetChild(0).gameObject.name == "kesashader")
+                {
+                    KesaVFXBrowse(prefab);
+                }
+            }
+            */
+
+        }
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(SimulationObjectView), nameof(SimulationObjectView.InitializeView))]
+    internal static void KesaVFXForSimObjView(ref GameObject instance, IUniverseView universe, SimulationObjectModel model)
+    {
+        /*
+        if (instance.transform.childCount > 0)
+        {
+            Instance.Logger.LogInfo("KESAVFX2=" + instance.name + " - " + instance.transform.GetChild(0).gameObject.name);
+            if (instance.transform.GetChild(0).gameObject.name == "kesashader")
+            {
+                KesaVFXBrowse(instance);
+            }
+        }
+        */
+    }
+}

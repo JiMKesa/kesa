@@ -7,7 +7,7 @@
         <Description Label="Description of the mod">KSP2 KESA mod.</Description>
         <RepositoryType Label="Type of source repository (git/svn)">git</RepositoryType>
         <RepositoryUrl Label="Source repository URL">https://github.com/JiMKesa/kesa.git</RepositoryUrl>
-        <Version Label="Version of the mod">1.1.11</Version>
+        <Version Label="Version of the mod">1.1.25</Version>
         <!-- If using GitHub and this template, VersionCheckUrl points to the raw .csproj file in your main branch,
              e.g. https://raw.githubusercontent.com/YourUsername/YourRepo/main/src/YourProject/YourProject.csproj -->
         <VersionCheckUrl Label="URL to up-to-date swinfo.json">https://raw.githubusercontent.com/JiMKesa/kesa/main/src/kesa/kesa.csproj</VersionCheckUrl>
@@ -20,6 +20,10 @@
         <!-- Set this to the path to your KSP 2 folder if you don't have the KSP2DIR environmental variable set -->
         <KSP2DIR Condition="'$(KSP2DIR)' == ''">C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program 2</KSP2DIR>
     </PropertyGroup>
+    <ItemGroup>
+      <None Remove="KesaPlugin.cs.backup" />
+      <None Remove="KesaPlugin.cs.bak" />
+    </ItemGroup>
 
     <!-- Project references -->
     <ItemGroup Label="DLL file references">
@@ -37,7 +41,7 @@
         <PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.0" PrivateAssets="all" />
         <PackageReference Include="BepInEx.Core" Version="5.*" />
         <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
-        <PackageReference Include="HarmonyX" Version="2.10.1" />
+        <PackageReference Include="HarmonyX" Version="2.10.2" />
         <PackageReference Include="SpaceWarp" Version="1.2.0" />
         <PackageReference Include="UnityEngine.Modules" Version="2020.3.33" IncludeAssets="compile" />
     </ItemGroup>
