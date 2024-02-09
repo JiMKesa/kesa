@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: rcs_thrust1
+  m_Shader: {fileID: 4800000, guid: a3908d45f2c04734d9b969ccf5b99fcb, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTexture:
+        m_Texture: {fileID: 2800000, guid: 9ed6609e5da2ff249a130f98655773a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: ae0a9f561634fc34d921812785951825, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: bd915a42f8b48ce4d90cd2a7efcd7ead, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TracesTexture:
+        m_Texture: {fileID: 2800000, guid: fa3751048444e574fa54b0e9aadc050d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AccelerationScaleFactor: 0
+    - _Alpha: 1
+    - _BendCenterOffset: 13
+    - _BendCenterOffsetMultipler: 0
+    - _BendRotationOffset: -1
+    - _Brightness: 1.94
+    - _BumpScale: 1
+    - _CameraDistanceFadeLength: 50
+    - _CameraDistanceFalloff: 1
+    - _CameraDistanceTopGradient: 0
+    - _ColorTintBoost: 0
+    - _ColorTintEndGradient: 0
+    - _ColorTintEndOffset: 0
+    - _ColorTintFalloff: 0
+    - _ColorTintMiddlePos: 0
+    - _ColorTintOffset: 0
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _ErosionAmount: 0
+    - _ErosionFalloffGradient: 2.5
+    - _ErosionPosOffset: -1
+    - _Falloff: 1.23
+    - _FalloffStart: 0
+    - _FalloffStartPosition: 0
+    - _Fresnel: 4.56
+    - _FresnelInner: 0
+    - _FresnelInnerBeneath: 0
+    - _FresnelInverted: 0
+    - _FresnelOuter: 0
+    - _FresnelOuterBeneath: 0
+    - _FresnelOuterErosionAmount: 0
+    - _FresnelOuterErosionFalloff: 0.001
+    - _FresnelOuterErosionOffset: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _LenghtwiseBrightness: 1
+    - _LenghtwisePosition: 0
+    - _LinearExpansion: 0.02
+    - _Metallic: 0
+    - _Mode: 0
+    - _Noise: 1
+    - _NoiseAmount: 0.659
+    - _NoiseContrast: 1
+    - _NoiseFresnel: 0
+    - _NoiseStrength: 0
+    - _OcclusionStrength: 1
+    - _Opacity: 1
+    - _Parallax: 0.02
+    - _QuadraticExpansion: 0.02
+    - _ScrollSpeedX: 0
+    - _ScrollSpeedY: 2
+    - _Seed: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StartFadeIn: 1
+    - _TdotVScale: 3
+    - _TextureOffsetX: 0
+    - _TextureOffsetY: 0
+    - _TextureScaleX: 1
+    - _TextureScaleY: 1
+    - _TintFalloff: 2
+    - _TopGradientFalloff: 0
+    - _TopGradientPosOffset: 0
+    - _TracesAmount: 0
+    - _TracesCount: 0
+    - _TracesLength: 1
+    - _TracesStrength: 0
+    - _TracesThickness: 0.1
+    - _TracesTopFalloffGradient: 0.25
+    - _TracesTopPosOffset: 0.282353
+    - _UVSec: 0
+    - _VertexDispContrast: 0.5
+    - _VertexDispFalloffGradient: 0
+    - _VertexDispPosOffset: 0
+    - _VertexDispScale: 0
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _AccelerationDir: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTintEnd: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _ColorTintMiddle: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+    - _ColorTintStart: {r: 1, g: 1, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EndTint: {r: 1, g: 1, b: 1, a: 1}
+    - _Speed: {r: 0.5, g: 1, b: 0, a: 0}
+    - _StartTint: {r: 1, g: 1, b: 1, a: 1}
+    - _Tilling: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

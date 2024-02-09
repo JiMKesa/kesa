@@ -1,0 +1,59 @@
+{
+  "PartName": "epc_sb",
+  "PlumeConfigs": {
+    "Plume": [
+      {
+        "MeshPath": "Flames",
+        "TargetGameObject": "vfx1",
+        "ShaderSettings": {
+          "ShaderName": "LFO/Additive",
+          "ShaderParams": {
+            "_NoiseTex": "fx-katniss-noise-5-blurred"
+          }
+        },
+        "Position": {
+          "x": 0.0019,
+          "y": -0.0042,
+          "z": 0.0255
+        },
+        "Scale": {
+          "x": 0.09,
+          "y": 0.09,
+          "z": 0.3
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 180.0,
+          "z": 180.0
+        },
+        "FloatParams": []
+      },
+      {
+        "MeshPath": "Flames",
+        "TargetGameObject": "vfx2",
+        "ShaderSettings": {
+          "ShaderName": "LFO/Additive",
+          "ShaderParams": {
+            "_NoiseTex": "fx-katniss-noise-5-blurred"
+          }
+        },
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -0.015
+        },
+        "Scale": {
+          "x": 0.0006,
+          "y": 0.0006,
+          "z": 0.0006
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 180.0,
+          "z": 180.0
+        },
+        "FloatParams": []
+      }
+    ]
+  }
+}

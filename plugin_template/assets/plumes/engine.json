@@ -1,0 +1,81 @@
+{
+  "PartName": "engine",
+  "PlumeConfigs": {
+    "Plume": [
+      {
+        "MeshPath": "Cylinder",
+        "TargetGameObject": "EnginePlume",
+        "ShaderSettings": {
+          "ShaderName": "LFO/Volumetric (Additive)",
+          "ShaderParams": {
+            "_Opacity": 0.789,
+            "_Brightness": 1.78,
+            "_InnerBrightness": 1.48,
+            "_InnerBrightnessFalloff": 1.28,
+            "_LengthwiseBrightness": 3.21,
+            "_ColorHigh": {
+              "r": 0.0,
+              "g": 0.87667346,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_ColorHighPosition": 0.648,
+            "_ColorMedium": {
+              "r": 0.0,
+              "g": 0.403789282,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_ColorMediumPosition": 0.583,
+            "_ColorLow": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_ColorLowPosition": 0.556,
+            "_ColorOffset": 2.0,
+            "_Radius": 1.88,
+            "_InnerRadius": 0.576,
+            "_StartPosition": 0.0,
+            "_Falloff": 0.4,
+            "_EndPosition": 0.674,
+            "_RadialFalloff": 0.97,
+            "_Noise": 1.37,
+            "_NoiseFresnel": 1.05,
+            "_NoiseScale": 1.55,
+            "_NoiseTex": "3D Noise",
+            "_Velocity": {
+              "x": 0.0,
+              "y": 10.0,
+              "z": 0.0,
+              "w": 0.0
+            },
+            "_ResolutionMultiplier": 1.51,
+            "_MinimumResolution": 0.0,
+            "_DensityLowerThreshold": 0.064,
+            "_DensityLowerClip": 0.505,
+            "_DensityUpperClip": 0.54,
+            "_CustomZTest": 0.0
+          }
+        },
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 4.92
+        },
+        "Scale": {
+          "x": 5.0,
+          "y": 5.0,
+          "z": 5.0
+        },
+        "Rotation": {
+          "x": 270.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "FloatParams": []
+      }
+    ]
+  }
+}

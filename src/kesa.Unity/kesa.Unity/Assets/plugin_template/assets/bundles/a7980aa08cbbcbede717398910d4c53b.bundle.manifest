@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1963344887
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5d4bd01e219aab943a51d395925eea79
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Mod/Parts/Utils/rcs/images/rcs_noise.png
+- Assets/Mod/_Textures/Fire_1.png
+- Assets/Mod/_Textures/Noise_1.png
+Dependencies: []

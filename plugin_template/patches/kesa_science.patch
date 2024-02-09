@@ -1,0 +1,87 @@
+:science #tNode_0v_electronics {
+	UnlockedPartsIDs +: [ 
+		"oa-1"
+	];
+}
+:science #tNode_0v_rcs {
+	UnlockedPartsIDs +: [ 
+		"rcs_xs"
+	];
+}
+:science #tNode_0v_rockets_01 {
+	UnlockedPartsIDs +: [ 
+		"epc_sb"
+	];
+}
+:science #tNode_0v_rockets_02 {
+	UnlockedPartsIDs +: [ 
+		"rcs_m"
+	];
+}
+:science #tNode_0v_science_02 {
+	UnlockedPartsIDs +: [ 
+		"jameswebb",
+		"euclid"
+	];
+}
+:science #tNode_1v_decouplers_01 {
+	UnlockedPartsIDs +: [ 
+		"freebooster_xs"
+	];
+}
+:science #tNode_1v_electronics_02 {
+	UnlockedPartsIDs +: [ 
+		"cluster",
+		"clustersp"
+	];
+}
+:science #tNode_1v_electronics_03 {
+	UnlockedPartsIDs +: [ 
+		"da-1",
+		"juice"
+	];
+}
+:science #tNode_1v_rockets_04 {
+	UnlockedPartsIDs +: [ 
+		"rosettaleg",
+		"rosettalegsupport"
+	];
+}
+:science #tNode_1v_xenon {
+	UnlockedPartsIDs +: [ 
+		"xntk_s",
+		"rit2x"
+	];
+}
+:science #tNode_2v_decouplers_01 {
+	UnlockedPartsIDs +: [ 
+		"freebooster_m"
+	];
+}
+:science #tNode_2v_rockets_02 {
+	UnlockedPartsIDs +: [ 
+		"vinci"
+	];
+}
+:science #tNode_2v_rockets_03 {
+	UnlockedPartsIDs +: [ 
+		"epc_s"
+	];
+}
+:science #tNode_2v_rockets_04 {
+	UnlockedPartsIDs +: [ 
+		"epc_m"
+	];
+}
+:science #tNode_3v_rockets_01 {
+	UnlockedPartsIDs +: [ 
+		"a6w",
+		"vulcain"
+	];
+}
+:science #tNode_3v_rockets_02 {
+	UnlockedPartsIDs +: [ 
+		"freebooster_xl",
+		"prometheus"
+	];
+}

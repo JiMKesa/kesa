@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 954519007
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1e9712d58dfbfdd1b99d690479cc916b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0df1dec30b5d061d422d3e6493d27647
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Mod/_Shaders/KESA_Additive.shader
+Dependencies: []

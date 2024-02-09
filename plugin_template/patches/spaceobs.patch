@@ -1,0 +1,44 @@
+:parts #jameswebb {
+    +Module_SpaceObs {
+        +Data_SpaceObs {
+			UrlPic: "https://apod.com/feed.rss";
+			DaysObj: 4;
+			Deployable: true;
+			RequiredResource: {
+                Rate: 0.1,
+                ResourceName: "ElectricCharge",
+                AcceptanceThreshold: 0.01
+			};
+        }
+    }
+	PAMModuleVisualsOverride +: [
+        {
+            PartComponentModuleName: "PartComponentModule_SpaceObs",
+            ModuleDisplayName: "Kesa/PartModules/SpaceObs/Name",
+            ShowHeader: true,
+            ShowFooter: true
+        }
+    ];
+}
+:parts #euclid {
+    +Module_SpaceObs {
+        +Data_SpaceObs {
+			UrlPic: "https://apod.com/feed.rss";
+			DaysObj: 7;
+			Deployable: false;
+			RequiredResource: {
+                Rate: 0.1,
+                ResourceName: "ElectricCharge",
+                AcceptanceThreshold: 0.01
+			};
+        }
+    }
+	PAMModuleVisualsOverride +: [
+        {
+            PartComponentModuleName: "PartComponentModule_SpaceObs",
+            ModuleDisplayName: "Kesa/PartModules/SpaceObs/Name",
+            ShowHeader: true,
+            ShowFooter: true
+        }
+    ];
+}

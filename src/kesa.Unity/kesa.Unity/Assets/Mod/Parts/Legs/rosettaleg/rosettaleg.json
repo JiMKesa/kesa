@@ -1,0 +1,757 @@
+{
+  "version": 0.3,
+  "useExternal": false,
+  "data": {
+    "partName": "rosettaleg",
+    "author": "JiMKesa",
+    "category": "Ground",
+    "family": "0420-Landing Leg",
+    "childStageOffset": 0,
+    "cost": 100,
+    "crewCapacity": 0,
+    "stageOffset": 0,
+    "isCompound": false,
+    "sizeCategory": "S",
+    "stageType": "None",
+    "resourceCosts": [],
+    "tags": "",
+    "stagingIconAssetAddress": "",
+    "PartSizeDiameter": 0.0,
+    "angularDrag": 2.0,
+    "breakingForce": 100.0,
+    "breakingTorque": 100.0,
+    "buoyancy": 0.0,
+    "buoyancyUseSine": false,
+    "coLiftOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coMassOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coPressureOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coBuoyancy": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coDisplacement": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "crashTolerance": 20.0,
+    "explosionPotential": 0.5,
+    "fuelCrossFeed": true,
+    "heatConductivity": 0.0,
+    "mass": 0.05,
+    "maxTemp": 800.0,
+    "attachRules": {
+      "stack": false,
+      "srfAttach": true,
+      "allowStack": false,
+      "allowSrfAttach": false,
+      "allowCollision": false,
+      "allowDock": false,
+      "allowRotate": false,
+      "allowRoot": false
+    },
+    "attachNodes": [
+      {
+        "nodeID": "srfAttach",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Surface",
+        "attachMethod": "HINGE_JOINT",
+        "IsMultiJoint": false,
+        "MultiJointMaxJoint": 0,
+        "MultiJointRadiusOffset": 0.0,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.01,
+          "y": -0.04,
+          "z": 0.0
+        },
+        "orientation": {
+          "x": -1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "size": 0,
+        "visualSize": 0.0,
+        "isResourceCrossfeed": true,
+        "isRigid": false,
+        "angularStrengthMultiplier": 0.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      }
+    ],
+    "resourceContainers": [],
+    "AllowKinematicPhysicsIfIntersectTerrain": false,
+    "serializedPartModules": [
+      {
+        "Name": "PartComponentModule_Drag",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Drag",
+            "ModuleType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Drag, Assembly-CSharp",
+              "BodyLiftEnabled": true,
+              "DragEnabled": true,
+              "bodyLiftMultiplier": 1.0,
+              "cubes": [
+                {
+                  "Area": [
+                    0.126,
+                    0.126,
+                    0.128,
+                    0.128,
+                    0.366,
+                    0.266
+                  ],
+                  "Drag": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2
+                  ],
+                  "Depth": [
+                    0.9,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2
+                  ],
+                  "DragMultiplier": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "Center": {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "z": 0.0
+                  },
+                  "Size": {
+                    "x": 0.61,
+                    "y": 0.6,
+                    "z": 0.21
+                  },
+                  "Name": "RETRACTED",
+                  "Weight": 0.0,
+                  "area": [
+                    0.126,
+                    0.126,
+                    0.128,
+                    0.128,
+                    0.366,
+                    0.266
+                  ],
+                  "drag": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2
+                  ],
+                  "depth": [
+                    0.9,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2
+                  ],
+                  "dragMultiplier": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "center": {
+                    "x": 0.3,
+                    "y": 0.2,
+                    "z": 0.0
+                  },
+                  "size": {
+                    "x": 0.61,
+                    "y": 0.6,
+                    "z": 0.21
+                  },
+                  "name": "RETRACTED",
+                  "weight": 0.0
+                },
+                {
+                  "Area": [
+                    0.0966,
+                    0.0966,
+                    0.2877,
+                    0.2877,
+                    0.63,
+                    0.63
+                  ],
+                  "Drag": [
+                    0.4,
+                    0.4,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2
+                  ],
+                  "Depth": [
+                    0.7,
+                    0.7,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2
+                  ],
+                  "DragMultiplier": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "Center": {
+                    "x": 0.636,
+                    "y": -0.32,
+                    "z": 0.0
+                  },
+                  "Size": {
+                    "x": 1.28,
+                    "y": 0.67,
+                    "z": 0.21
+                  },
+                  "Name": "EXTENDED",
+                  "Weight": 0.0,
+                  "area": [
+                    0.0966,
+                    0.0966,
+                    0.2877,
+                    0.2877,
+                    0.63,
+                    0.63
+                  ],
+                  "drag": [
+                    0.4,
+                    0.4,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2
+                  ],
+                  "depth": [
+                    0.7,
+                    0.7,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2
+                  ],
+                  "dragMultiplier": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "center": {
+                    "x": 0.636,
+                    "y": -0.32,
+                    "z": 0.0
+                  },
+                  "size": {
+                    "x": 1.28,
+                    "y": 0.67,
+                    "z": 0.21
+                  },
+                  "name": "EXTENDED",
+                  "weight": 0.0
+                }
+              ],
+              "weightedArea": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedExposedArea": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDrag": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDragMultiplier": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDepth": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "weightedSize": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "isDragCubeRotated": false,
+              "dragCubeRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "UpdateExposedArea": false,
+              "ModuleType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_Deployable",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Deployable",
+            "ModuleType": "KSP.Modules.Module_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Deployable, Assembly-CSharp",
+              "toggleExtend": {
+                "ContextKey": "toggleExtend",
+                "storedValue": false
+              },
+              "DeployLimit": {
+                "ContextKey": "DeployLimit",
+                "storedValue": 1.0
+              },
+              "AnimationNormalizedTime": {
+                "ContextKey": "AnimationNormalizedTime",
+                "storedValue": 0.0
+              },
+              "CurrentDeployState": {
+                "ContextKey": null,
+                "storedValue": "Retracted"
+              },
+              "showStatus": true,
+              "isTracking": true,
+              "applyShielding": true,
+              "applyShieldingExtend": true,
+              "retractable": true,
+              "extendable": true,
+              "TrackingAlignmentOffset": 0.0,
+              "trackingSpeed": 0.25,
+              "EditorAnimSpeedMul": 10.0,
+              "pivotName": "",
+              "alignType": "",
+              "secondaryTransform": "",
+              "animationName": "",
+              "trackingMode": "None",
+              "rotationMode": "YAW",
+              "originalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+              },
+              "currentRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+              },
+              "targetGUID": "myTargetGUID",
+              "LimitRotation": false,
+              "UseDeployLimit": false,
+              "AxisMinMaxRotation": {
+                "x": -180.0,
+                "y": 180.0
+              },
+              "DefaultActionGroup": "None",
+              "deployCrashTolerance": 10.0,
+              "deployMaxTemp": 2000.0,
+              "deployBreakingForce": 200.0,
+              "deployBreakingTorque": 200.0,
+              "DisableAnimatorWhenInactive": false,
+              "AnimDeployStateKey": "isDeployed",
+              "AnimSpeedMultiplierKey": "playbackMul",
+              "AnimReverseStateTransitionTriggerKey": "reverseAnimStateChange",
+              "AnimDeployLimitKey": "deployLimitValue",
+              "DefaultRetractedAnimSpeedValue": 1000.0,
+              "DefaultExtendedAnimSpeedValue": 1000.0,
+              "DeployPartTypeName": "PartModules/Deployable/PartType",
+              "OneTimeExtendActionName": "PartModules/Deployable/ExtendOnly",
+              "DeployToggleActionName": "PartModules/Deployable/Toggle",
+              "ActionGroupToggleName": "PartModules/Deployable/ToggleExtended/Toggle",
+              "ActionGroupExtendName": "PartModules/Deployable/ToggleExtended/Extend",
+              "ActionGroupRetractName": "PartModules/Deployable/ToggleExtended/Retract",
+              "DeployStateRetractedName": "PartModules/Deployable/State/Retracted",
+              "DeployStateExtendedName": "PartModules/Deployable/State/Extended",
+              "DeployStateMovingName": "PartModules/Deployable/State/Moving",
+              "DeployStateBlockedName": "PartModules/Deployable/State/Blocked",
+              "DeployStateExtendedCannotRetractName": "PartModules/Deployable/State/CannotRetract",
+              "DeployRetractedCannotRetractName": "PartModules/Deployable/State/RetractedCannotRetract",
+              "ModuleType": "KSP.Modules.Module_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsExtended": false,
+              "IsRetracted": true,
+              "IsRetracting": false,
+              "IsExtending": false,
+              "UseAnimation": true,
+              "DataType": "KSP.Modules.Data_Deployable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_Color",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Color",
+            "ModuleType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Color, Assembly-CSharp",
+              "Base": {
+                "ContextKey": "Base",
+                "storedValue": {
+                  "r": 0.654902,
+                  "g": 0.6666667,
+                  "b": 0.6862745,
+                  "a": 1.0
+                }
+              },
+              "Accent": {
+                "ContextKey": "Accent",
+                "storedValue": {
+                  "r": 0.4117647,
+                  "g": 0.443137258,
+                  "b": 0.5176471,
+                  "a": 1.0
+                }
+              },
+              "ModuleType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_ReinforcedConnection",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_ReinforcedConnection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_ReinforcedConnection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_ReinforcedConnection",
+            "ModuleType": "KSP.Modules.Module_ReinforcedConnection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_ReinforcedConnection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_ReinforcedConnection, Assembly-CSharp",
+              "IsEnhancedSystemConnection": false,
+              "ConnectionTarget": "GrandParent",
+              "ModuleType": "KSP.Modules.Module_ReinforcedConnection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_ReinforcedConnection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_WheelBase",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_WheelBase, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_WheelBase, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_WheelBase",
+            "ModuleType": "KSP.Modules.Module_WheelBase, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_WheelBase, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_WheelBase, Assembly-CSharp",
+              "IsGrounded": false,
+              "AutoFriction": {
+                "ContextKey": "AutoFriction",
+                "storedValue": true
+              },
+              "FrictionMultiplier": {
+                "ContextKey": "FrictionMultiplier",
+                "storedValue": 1.0
+              },
+              "WheelType": "LEG",
+              "FitWheelColliderToMesh": false,
+              "Radius": 0.04,
+              "Center": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "Mass": 0.03,
+              "FrictionSharpness": 0.0,
+              "WheelDamping": 0.05,
+              "WheelMaxSpeed": 1000.0,
+              "ClipObject": "col_capsule_prim_shock",
+              "AdherentStart": 0.01,
+              "FrictionAdherent": 0.1,
+              "PeakStart": 2.0,
+              "FrictionPeak": 1.0,
+              "LimitStart": 7.0,
+              "FrictionLimit": 1.0,
+              "GeeBias": 0.1,
+              "GroundHeightOffset": 0.0,
+              "InctiveSubsteps": 4,
+              "ActiveSubsteps": 8,
+              "TireForceSharpness": 10.0,
+              "SuspensionForceSharpness": 10.0,
+              "WheelColliderTransformName": "wheelCollider",
+              "WheelTransformName": "",
+              "SpringSlerpRate": 0.2,
+              "MinimumDownforce": 0.5,
+              "UseNewFrictionModel": true,
+              "AlignVisualAndCollider": false,
+              "DeploymentSubsystemNormalized": 0.9,
+              "RetractionSubsystemNormalized": 0.02,
+              "UseStandinCollider": false,
+              "ModuleType": "KSP.Modules.Module_WheelBase, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_WheelBase, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_WheelSuspension",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_WheelSuspension, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_WheelSuspension, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_WheelSuspension",
+            "ModuleType": "KSP.Modules.Module_WheelSuspension, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_WheelSuspension, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_WheelSuspension, Assembly-CSharp",
+              "suspensionTransformName": "suspension",
+              "suspensionOffset": 0.0,
+              "suspensionDistance": 0.09,
+              "targetPosition": 1.0,
+              "springRatio": 6.0,
+              "damperRatio": 1.0,
+              "boostRatio": 0.5,
+              "maximumLoad": 3.0,
+              "useDistributedMass": true,
+              "useAutoBoost": true,
+              "suspensionColliderName": "",
+              "adjustForHighGee": true,
+              "highGeeThreshold": 1.5,
+              "highGeeSpringTweakable": 3.0,
+              "highGeeDamperTweakable": 1.2,
+              "SuspensionDirection": "Y",
+              "suspensionPos": {
+                "x": -1.0,
+                "y": -1.0,
+                "z": -1.0
+              },
+              "suspensionDefaultPos": {
+                "x": -1.0,
+                "y": -1.0,
+                "z": -1.0
+              },
+              "autoSpringDamper": {
+                "ContextKey": "autoSpringDamper",
+                "storedValue": true
+              },
+              "autoBoost": 0.0,
+              "springTweakable": {
+                "ContextKey": "springTweakable",
+                "storedValue": 1.0
+              },
+              "damperTweakable": {
+                "ContextKey": "damperTweakable",
+                "storedValue": 1.0
+              },
+              "ModuleType": "KSP.Modules.Module_WheelSuspension, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_WheelSuspension, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_WheelLock",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_WheelLock, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_WheelLock, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_WheelLock",
+            "ModuleType": "KSP.Modules.Module_WheelLock, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_WheelLock, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_WheelLock, Assembly-CSharp",
+              "MaxTorque": 400.0,
+              "ModuleType": "KSP.Modules.Module_WheelLock, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_WheelLock, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_ReinforcedConnection",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_ReinforcedConnection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_ReinforcedConnection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_ReinforcedConnection",
+            "ModuleType": "KSP.Modules.Module_ReinforcedConnection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_ReinforcedConnection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_ReinforcedConnection, Assembly-CSharp",
+              "IsEnhancedSystemConnection": false,
+              "ConnectionTarget": "GrandParent",
+              "ModuleType": "KSP.Modules.Module_ReinforcedConnection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_ReinforcedConnection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "resourceSummary": {
+      "Consumes": [],
+      "Generates": [],
+      "Contains": []
+    },
+    "PAMModuleSortOverride": [],
+    "PAMModuleVisualsOverride": [],
+    "collisionVolumeBoundsScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "emissiveConstant": 0.0,
+    "maximumDrag": 0.2,
+    "minimumDrag": 0.1,
+    "physicsMode": "Full",
+    "inverseStageCarryover": true,
+    "skinMassPerArea": 0.0,
+    "bodyLiftOnlyUnattachedLift": false,
+    "bodyLiftOnlyAttachName": "",
+    "maxLength": 0,
+    "radiatorHeadroom": 0.0,
+    "radiatorMax": 0.0,
+    "skinMaxTemp": 0.0,
+    "skinInternalConductionMult": 0.0,
+    "thermalMassModifier": 1.0,
+    "buoyancyUseCubeNamed": "",
+    "HasReportStorage": false,
+    "oabEditorCategory": "ALL",
+    "partType": "Rocket",
+    "PreferredOrientation": "NONE",
+    "MirrorTechnique": "Auto",
+    "CanSuggestOrientation": false,
+    "PickUpPointOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "PickupRotationPointOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "Title": "rosettaleg",
+    "Subtitle": null,
+    "Manufacturer": null,
+    "Description": null,
+    "PrefabAddress": "",
+    "IconAddress": ""
+  },
+  "modules": null,
+  "legacyModules": ""
+}

@@ -1,0 +1,529 @@
+{
+  "version": 0.3,
+  "useExternal": false,
+  "data": {
+    "partName": "rcs_m",
+    "author": "JiMKesa",
+    "category": "Utility",
+    "family": "0520-RCS",
+    "childStageOffset": 0,
+    "cost": 100,
+    "crewCapacity": 0,
+    "stageOffset": 0,
+    "isCompound": false,
+    "sizeCategory": "M",
+    "stageType": "None",
+    "resourceCosts": [],
+    "tags": "",
+    "stagingIconAssetAddress": "",
+    "PartSizeDiameter": 0.0,
+    "angularDrag": 1.0,
+    "breakingForce": 200.0,
+    "breakingTorque": 200.0,
+    "buoyancy": 0.5,
+    "buoyancyUseSine": true,
+    "coLiftOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coMassOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coPressureOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coBuoyancy": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coDisplacement": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "crashTolerance": 10.0,
+    "explosionPotential": 0.5,
+    "fuelCrossFeed": true,
+    "heatConductivity": 0.12,
+    "mass": 0.05,
+    "maxTemp": 2000.0,
+    "attachRules": {
+      "stack": false,
+      "srfAttach": true,
+      "allowStack": false,
+      "allowSrfAttach": false,
+      "allowCollision": false,
+      "allowDock": false,
+      "allowRotate": false,
+      "allowRoot": false
+    },
+    "attachNodes": [
+      {
+        "nodeID": "srfAttach",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Surface",
+        "attachMethod": "FIXED_JOINT",
+        "IsMultiJoint": false,
+        "MultiJointMaxJoint": 0,
+        "MultiJointRadiusOffset": 0.0,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "orientation": {
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "size": 0,
+        "visualSize": 0.0,
+        "isResourceCrossfeed": false,
+        "isRigid": false,
+        "angularStrengthMultiplier": 0.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      }
+    ],
+    "resourceContainers": [],
+    "AllowKinematicPhysicsIfIntersectTerrain": false,
+    "serializedPartModules": [
+      {
+        "Name": "PartComponentModule_Color",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Color",
+            "ModuleType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Color, Assembly-CSharp",
+              "Base": {
+                "ContextKey": "Base",
+                "storedValue": {
+                  "r": 0.654902,
+                  "g": 0.6666667,
+                  "b": 0.6862745,
+                  "a": 1.0
+                }
+              },
+              "Accent": {
+                "ContextKey": "Accent",
+                "storedValue": {
+                  "r": 0.4117647,
+                  "g": 0.443137258,
+                  "b": 0.5176471,
+                  "a": 1.0
+                }
+              },
+              "ModuleType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_Drag",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Drag",
+            "ModuleType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Drag, Assembly-CSharp",
+              "BodyLiftEnabled": true,
+              "DragEnabled": true,
+              "bodyLiftMultiplier": 1.0,
+              "cubes": [
+                {
+                  "Area": [
+                    0.08,
+                    0.08,
+                    0.002,
+                    0.002,
+                    0.002,
+                    0.002
+                  ],
+                  "Drag": [
+                    0.8,
+                    0.8,
+                    0.8,
+                    0.8,
+                    0.8,
+                    0.8
+                  ],
+                  "Depth": [
+                    0.4,
+                    0.8,
+                    0.4,
+                    0.4,
+                    0.4,
+                    0.4
+                  ],
+                  "DragMultiplier": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "Center": {
+                    "x": -0.05,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Size": {
+                    "x": 0.1,
+                    "y": 0.4,
+                    "z": 0.4
+                  },
+                  "Name": "",
+                  "Weight": 0.0,
+                  "area": [
+                    0.08,
+                    0.08,
+                    0.002,
+                    0.002,
+                    0.002,
+                    0.002
+                  ],
+                  "drag": [
+                    0.8,
+                    0.8,
+                    0.8,
+                    0.8,
+                    0.8,
+                    0.8
+                  ],
+                  "depth": [
+                    0.4,
+                    0.8,
+                    0.4,
+                    0.4,
+                    0.4,
+                    0.4
+                  ],
+                  "dragMultiplier": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "center": {
+                    "x": -0.05,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "size": {
+                    "x": 0.1,
+                    "y": 0.4,
+                    "z": 0.4
+                  },
+                  "name": "",
+                  "weight": 0.0
+                }
+              ],
+              "weightedArea": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedExposedArea": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDrag": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDragMultiplier": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDepth": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "weightedSize": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "isDragCubeRotated": false,
+              "dragCubeRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "UpdateExposedArea": false,
+              "ModuleType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_RCS",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_RCS",
+            "ModuleType": "KSP.Modules.Module_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_RCS, Assembly-CSharp",
+              "isEnabled": {
+                "ContextKey": "isEnabled",
+                "storedValue": true
+              },
+              "thrustPercentage": {
+                "ContextKey": "thrustPercentage",
+                "storedValue": 100.0
+              },
+              "IsAdvancedSettingsShown": {
+                "ContextKey": "IsAdvancedSettingsShown",
+                "storedValue": false
+              },
+              "enablePitch": {
+                "ContextKey": "enablePitch",
+                "storedValue": true
+              },
+              "enableYaw": {
+                "ContextKey": "enableYaw",
+                "storedValue": true
+              },
+              "enableRoll": {
+                "ContextKey": "enableRoll",
+                "storedValue": true
+              },
+              "enableX": {
+                "ContextKey": "enableX",
+                "storedValue": true
+              },
+              "enableY": {
+                "ContextKey": "enableY",
+                "storedValue": true
+              },
+              "enableZ": {
+                "ContextKey": "enableZ",
+                "storedValue": true
+              },
+              "foreByThrottle": {
+                "ContextKey": "foreByThrottle",
+                "storedValue": false
+              },
+              "fullThrust": {
+                "ContextKey": "fullThrust",
+                "storedValue": false
+              },
+              "Propellant": {
+                "mixtureName": "Monopropellant",
+                "mixtureMultiplier": 1.0,
+                "ignoreForThrustCurve": false,
+                "ingredientOverrides": []
+              },
+              "maxThrust": 1.0,
+              "shieldedCanActivate": false,
+              "atmosphereCurve": {
+                "fCurve": {
+                  "keys": [
+                    {
+                      "time": 0.0,
+                      "value": 240.0,
+                      "inTangent": -140.0,
+                      "outTangent": -140.0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.333333343,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 100.0,
+                      "inTangent": -86.6665039,
+                      "outTangent": -86.6665039,
+                      "inWeight": 0.333333343,
+                      "outWeight": 0.333333343,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    },
+                    {
+                      "time": 4.0,
+                      "value": 0.001,
+                      "inTangent": -33.333,
+                      "outTangent": -33.333,
+                      "inWeight": 0.333333343,
+                      "outWeight": 0.0,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    }
+                  ],
+                  "length": 3,
+                  "preWrapMode": "ClampForever",
+                  "postWrapMode": "ClampForever"
+                },
+                "_minTime": 3.40282347E+38,
+                "_maxTime": -3.40282347E+38
+              },
+              "useThrustCurve": false,
+              "thrustCurve": {
+                "fCurve": {
+                  "keys": [
+                    {
+                      "time": 0.0,
+                      "value": 400.0,
+                      "inTangent": -200.0,
+                      "outTangent": -200.0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.333333343,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 200.0,
+                      "inTangent": -133.33316,
+                      "outTangent": -133.33316,
+                      "inWeight": 0.333333343,
+                      "outWeight": 0.333333343,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    },
+                    {
+                      "time": 4.0,
+                      "value": 0.001,
+                      "inTangent": -66.66633,
+                      "outTangent": -66.66633,
+                      "inWeight": 0.333333343,
+                      "outWeight": 0.0,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    }
+                  ],
+                  "length": 3,
+                  "preWrapMode": "ClampForever",
+                  "postWrapMode": "ClampForever"
+                },
+                "_minTime": 3.40282347E+38,
+                "_maxTime": -3.40282347E+38
+              },
+              "disableUnderwater": false,
+              "fullThrustMin": 0.2,
+              "useLever": false,
+              "ModuleType": "KSP.Modules.Module_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_RCS, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "resourceSummary": {
+      "Consumes": [],
+      "Generates": [],
+      "Contains": []
+    },
+    "PAMModuleSortOverride": [],
+    "PAMModuleVisualsOverride": [],
+    "collisionVolumeBoundsScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "emissiveConstant": 0.0,
+    "maximumDrag": 0.2,
+    "minimumDrag": 0.1,
+    "physicsMode": "Full",
+    "inverseStageCarryover": true,
+    "skinMassPerArea": 4.0,
+    "bodyLiftOnlyUnattachedLift": false,
+    "bodyLiftOnlyAttachName": "",
+    "maxLength": -1,
+    "radiatorHeadroom": 0.75,
+    "radiatorMax": 0.35,
+    "skinMaxTemp": 800.0,
+    "skinInternalConductionMult": 1.0,
+    "thermalMassModifier": 1.0,
+    "buoyancyUseCubeNamed": "",
+    "HasReportStorage": false,
+    "oabEditorCategory": "ALL",
+    "partType": "Rocket",
+    "PreferredOrientation": "NONE",
+    "MirrorTechnique": "Auto",
+    "CanSuggestOrientation": false,
+    "PickUpPointOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "PickupRotationPointOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "Title": "rcs_m",
+    "Subtitle": null,
+    "Manufacturer": null,
+    "Description": null,
+    "PrefabAddress": "",
+    "IconAddress": ""
+  },
+  "modules": null,
+  "legacyModules": ""
+}

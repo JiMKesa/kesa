@@ -1,0 +1,50 @@
+Event	ID	Name			Wwise Object Path	Notes
+	141989821	machine2_stop			\Default Work Unit\machine2_stop	
+	609308063	machine2_play			\Default Work Unit\machine2_play	
+	627309441	machine4_play			\Default Work Unit\machine4_play	
+	632693656	bip1_play			\Default Work Unit\bip1_play	
+	869495268	engine2_play			\Default Work Unit\engine2_play	
+	1034545514	machine3_stop			\Default Work Unit\machine3_stop	
+	1073681826	deploy3_stop			\Default Work Unit\deploy3_stop	
+	1103612532	engine0_stop			\Default Work Unit\engine0_stop	
+	1121326010	rcs2_stop			\Default Work Unit\rcs2_stop	
+	1229136034	clac1_play			\Default Work Unit\clac1_play	
+	1247680889	clac2_stop			\Default Work Unit\clac2_stop	
+	1415712014	machine1_play			\Default Work Unit\machine1_play	
+	1455197407	engine1_stop			\Default Work Unit\engine1_stop	
+	1830675452	clac1_stop			\Default Work Unit\clac1_stop	
+	2117558675	clac2_play			\Default Work Unit\clac2_play	
+	2267346394	deploy5_play			\Default Work Unit\deploy5_play	
+	2417251312	machine1_stop			\Default Work Unit\machine1_stop	
+	2730422816	deploy3_play			\Default Work Unit\deploy3_play	
+	2947269463	machine4_stop			\Default Work Unit\machine4_stop	
+	2963564522	bip1_stop			\Default Work Unit\bip1_stop	
+	2970461421	rcs1_play			\Default Work Unit\rcs1_play	
+	2998641944	machine3_play			\Default Work Unit\machine3_play	
+	3038623048	rcs2_play			\Default Work Unit\rcs2_play	
+	3086540886	stopall			\Default Work Unit\stopall	
+	3125878193	engine3_stop			\Default Work Unit\engine3_stop	
+	3159099801	engine1_play			\Default Work Unit\engine1_play	
+	3642045662	engine2_stop			\Default Work Unit\engine2_stop	
+	3666325476	deploy5_stop			\Default Work Unit\deploy5_stop	
+	3952801098	engine0_play			\Default Work Unit\engine0_play	
+	4087758651	rcs1_stop			\Default Work Unit\rcs1_stop	
+	4256415483	engine3_play			\Default Work Unit\engine3_play	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	19230172	deploy5	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\deploy5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\deploy5		428222
+	83728435	engine2	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\engine2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\engine2		77290
+	111668973	rcs2	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\rcs2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\rcs2		88364
+	164504152	engine1	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\engine1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\engine1		181568
+	220283619	machine4	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\machine4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\machine4		960390
+	264154079	engine3	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\engine3_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\engine3		80552
+	279276920	bip1	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\bip1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\bip1		170138
+	356021594	deploy3	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\deploy3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\deploy3		109504
+	586910184	clac1	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\clac1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\clac1		61382
+	624961312	rcs1	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\rcs1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\rcs1		88364
+	695330911	machine1	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\machine1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\machine1		203454
+	1017128769	engine0	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\engine0_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\engine0		110526
+	1038467427	clac2	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\clac2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\clac2		34734
+	1038560492	machine2	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\machine2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\machine2		133102
+	1045292905	machine3	C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\SFX\machine3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\machine3		467806
+

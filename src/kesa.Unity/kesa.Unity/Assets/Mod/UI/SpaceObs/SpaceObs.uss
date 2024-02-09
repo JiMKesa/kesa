@@ -1,0 +1,20 @@
+.custom-label {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(68, 138, 255);
+}
+
+.photoscreen {
+    background-image: url('project://database/Assets/Mod/UI/SpaceObs/default_screen.png?fileID=2800000&guid=0dd4549371fe8724b9fb96bf28353658&type=3#default_screen');
+    border-left-color: rgb(71, 73, 75);
+    border-right-color: rgb(71, 73, 75);
+    border-top-color: rgb(71, 73, 75);
+    border-bottom-color: rgb(71, 73, 75);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    max-width: 780px;
+    max-height: 640px;
+}

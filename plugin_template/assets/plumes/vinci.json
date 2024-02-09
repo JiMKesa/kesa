@@ -1,0 +1,399 @@
+{
+  "PartName": "vinci",
+  "PlumeConfigs": {
+    "Plume": [
+      {
+        "MeshPath": "Flames",
+        "TargetGameObject": "vfx0",
+        "ShaderSettings": {
+          "ShaderName": "LFO/Additive",
+          "ShaderParams": {
+            "_Brightness": 2.79,
+            "_EndTint": {
+              "r": 0.0,
+              "g": 0.674227238,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_NoiseTex": "fx-noise-3",
+            "_Fresnel": 2.23,
+            "_LinearExpansion": -0.158,
+            "_QuadraticExpansion": 0.547
+          }
+        },
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.86
+        },
+        "Scale": {
+          "x": 1.1,
+          "y": 1.1,
+          "z": 1.1
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 180.0,
+          "z": 180.0
+        },
+        "FloatParams": [
+          {
+            "Value": 0.0,
+            "ParamHash": 401,
+            "IsDirty": false,
+            "ParamName": "_Opacity",
+            "UseAtmoCurve": false,
+            "AtmoCurveType": 0,
+            "AtmoMultiplierCurve": {
+              "keys": [],
+              "length": 0,
+              "preWrapMode": 4,
+              "postWrapMode": 4
+            },
+            "UseThrottleCurve": true,
+            "ThrottleCurveType": 0,
+            "ThrottleMultiplierCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 34
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 34
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            }
+          }
+        ]
+      },
+      {
+        "MeshPath": "Flames",
+        "TargetGameObject": "vfx1",
+        "ShaderSettings": {
+          "ShaderName": "LFO/Additive",
+          "ShaderParams": {
+            "_Brightness": 4.4,
+            "_EndTint": {
+              "r": 0.0,
+              "g": 0.3174078,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_TintFalloff": 1.581,
+            "_Noise": 0.735,
+            "_NoiseTex": "fx-katniss-noise-7",
+            "_NoiseFresnel": 0.063,
+            "_Speed": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "w": 0.0
+            },
+            "_Fresnel": 2.35,
+            "_Falloff": 1.23,
+            "_FalloffStart": 4.74,
+            "_StartFadeIn": 0.52,
+            "_LenghtwisePosition": 0.07,
+            "_LinearExpansion": -0.002,
+            "_QuadraticExpansion": -0.026
+          }
+        },
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.45
+        },
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.28
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 180.0,
+          "z": 180.0
+        },
+        "FloatParams": [
+          {
+            "Value": 0.0,
+            "ParamHash": 362,
+            "IsDirty": false,
+            "ParamName": "_Opacity",
+            "UseAtmoCurve": false,
+            "AtmoCurveType": 0,
+            "AtmoMultiplierCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.6,
+                  "inTangent": 0.0,
+                  "outTangent": 0.45,
+                  "inWeight": 0.0,
+                  "outWeight": 0.1,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 0.15,
+                  "value": 1.0,
+                  "inTangent": 0.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 1.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 0.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 3,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "UseThrottleCurve": true,
+            "ThrottleCurveType": 0,
+            "ThrottleMultiplierCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 34
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 34
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            }
+          }
+        ]
+      },
+      {
+        "MeshPath": "bell_p2_1",
+        "TargetGameObject": "vfx2",
+        "ShaderSettings": {
+          "ShaderName": "LFO/Additive",
+          "ShaderParams": {
+            "_Brightness": 10.0,
+            "_EndTint": {
+              "r": 0.0,
+              "g": 0.551450253,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_TintFalloff": 0.309,
+            "_Noise": 0.34,
+            "_NoiseTex": "fx-noise-1",
+            "_NoiseContrast": 1.78,
+            "_Speed": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "w": 0.0
+            },
+            "_Fresnel": 1.07,
+            "_Falloff": 0.55,
+            "_FalloffStart": 5.0,
+            "_StartFadeIn": 0.72,
+            "_LenghtwisePosition": 0.07,
+            "_LinearExpansion": 0.024,
+            "_QuadraticExpansion": 1.0
+          }
+        },
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.528
+        },
+        "Scale": {
+          "x": 0.006,
+          "y": 0.006,
+          "z": 0.006
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 180.0,
+          "z": 180.0
+        },
+        "FloatParams": [
+          {
+            "Value": 0.0,
+            "ParamHash": 362,
+            "IsDirty": false,
+            "ParamName": "_Opacity",
+            "UseAtmoCurve": false,
+            "AtmoCurveType": 0,
+            "AtmoMultiplierCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.3,
+                  "inTangent": 0.0,
+                  "outTangent": 0.45,
+                  "inWeight": 0.0,
+                  "outWeight": 0.1,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 0.15,
+                  "value": 0.9,
+                  "inTangent": 0.0,
+                  "outTangent": 0.5,
+                  "inWeight": 0.0,
+                  "outWeight": 1.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 0.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 3,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "UseThrottleCurve": true,
+            "ThrottleCurveType": 0,
+            "ThrottleMultiplierCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 2.0,
+                  "outTangent": 2.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 0.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            }
+          },
+          {
+            "Value": 0.0,
+            "ParamHash": 362,
+            "IsDirty": false,
+            "ParamName": "_QuadraticExpansion",
+            "UseAtmoCurve": true,
+            "AtmoCurveType": 0,
+            "AtmoMultiplierCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 1.0,
+                  "inTangent": -0.918073833,
+                  "outTangent": -0.918073833,
+                  "inWeight": 0.0,
+                  "outWeight": 0.333333343,
+                  "weightedMode": 0,
+                  "tangentMode": 34
+                },
+                {
+                  "time": 1.0,
+                  "value": 0.08192617,
+                  "inTangent": -0.918073833,
+                  "outTangent": -0.918073833,
+                  "inWeight": 0.333333343,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 34
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "UseThrottleCurve": false,
+            "ThrottleCurveType": 0,
+            "ThrottleMultiplierCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 1.0,
+                  "inTangent": 0.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 34
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 0.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 34
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

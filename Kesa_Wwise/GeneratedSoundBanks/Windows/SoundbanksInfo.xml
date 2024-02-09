@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\jmb\Documents\Unity2022\Kesa_Mod\Kesa_Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2316648569" Language="SFX" Hash="3607805979">
+			<ObjectPath>\SoundBanks\Default Work Unit\kesa</ObjectPath>
+			<ShortName>kesa</ShortName>
+			<Path>kesa.bnk</Path>
+			<IncludedEvents>
+				<Event Id="632693656" Name="bip1_play" ObjectPath="\Events\Default Work Unit\bip1_play" DurationType="OneShot" DurationMin="1.771604" DurationMax="1.771604">
+					<IncludedMemoryFiles>
+						<File Id="279276920" Language="SFX">
+							<ShortName>bip1.wav</ShortName>
+							<Path>SFX\bip1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2963564522" Name="bip1_stop" ObjectPath="\Events\Default Work Unit\bip1_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1229136034" Name="clac1_play" ObjectPath="\Events\Default Work Unit\clac1_play" DurationType="OneShot" DurationMin="0.695215" DurationMax="0.695215">
+					<IncludedMemoryFiles>
+						<File Id="586910184" Language="SFX">
+							<ShortName>clac1.wav</ShortName>
+							<Path>SFX\clac1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1830675452" Name="clac1_stop" ObjectPath="\Events\Default Work Unit\clac1_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2117558675" Name="clac2_play" ObjectPath="\Events\Default Work Unit\clac2_play" DurationType="OneShot" DurationMin="0.393084" DurationMax="0.393084">
+					<IncludedMemoryFiles>
+						<File Id="1038467427" Language="SFX">
+							<ShortName>clac2.wav</ShortName>
+							<Path>SFX\clac2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1247680889" Name="clac2_stop" ObjectPath="\Events\Default Work Unit\clac2_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2730422816" Name="deploy3_play" ObjectPath="\Events\Default Work Unit\deploy3_play" DurationType="OneShot" DurationMin="2.28" DurationMax="2.28">
+					<IncludedMemoryFiles>
+						<File Id="356021594" Language="SFX">
+							<ShortName>deploy3.wav</ShortName>
+							<Path>SFX\deploy3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1073681826" Name="deploy3_stop" ObjectPath="\Events\Default Work Unit\deploy3_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2267346394" Name="deploy5_play" ObjectPath="\Events\Default Work Unit\deploy5_play" DurationType="OneShot" DurationMin="4.854399" DurationMax="4.854399">
+					<IncludedMemoryFiles>
+						<File Id="19230172" Language="SFX">
+							<ShortName>deploy5.wav</ShortName>
+							<Path>SFX\deploy5_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3666325476" Name="deploy5_stop" ObjectPath="\Events\Default Work Unit\deploy5_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3952801098" Name="engine0_play" ObjectPath="\Events\Default Work Unit\engine0_play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1017128769" Language="SFX">
+							<ShortName>engine0.wav</ShortName>
+							<Path>SFX\engine0_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1103612532" Name="engine0_stop" ObjectPath="\Events\Default Work Unit\engine0_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3159099801" Name="engine1_play" ObjectPath="\Events\Default Work Unit\engine1_play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="164504152" Language="SFX">
+							<ShortName>engine1.wav</ShortName>
+							<Path>SFX\engine1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1455197407" Name="engine1_stop" ObjectPath="\Events\Default Work Unit\engine1_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="869495268" Name="engine2_play" ObjectPath="\Events\Default Work Unit\engine2_play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="83728435" Language="SFX">
+							<ShortName>engine2.wav</ShortName>
+							<Path>SFX\engine2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3642045662" Name="engine2_stop" ObjectPath="\Events\Default Work Unit\engine2_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="4256415483" Name="engine3_play" ObjectPath="\Events\Default Work Unit\engine3_play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="264154079" Language="SFX">
+							<ShortName>engine3.wav</ShortName>
+							<Path>SFX\engine3_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3125878193" Name="engine3_stop" ObjectPath="\Events\Default Work Unit\engine3_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1415712014" Name="machine1_play" ObjectPath="\Events\Default Work Unit\machine1_play" DurationType="OneShot" DurationMin="2.306009" DurationMax="2.306009">
+					<IncludedMemoryFiles>
+						<File Id="695330911" Language="SFX">
+							<ShortName>machine1.wav</ShortName>
+							<Path>SFX\machine1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2417251312" Name="machine1_stop" ObjectPath="\Events\Default Work Unit\machine1_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="609308063" Name="machine2_play" ObjectPath="\Events\Default Work Unit\machine2_play" DurationType="OneShot" DurationMin="1.508367" DurationMax="1.508367">
+					<IncludedMemoryFiles>
+						<File Id="1038560492" Language="SFX">
+							<ShortName>machine2.wav</ShortName>
+							<Path>SFX\machine2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="141989821" Name="machine2_stop" ObjectPath="\Events\Default Work Unit\machine2_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2998641944" Name="machine3_play" ObjectPath="\Events\Default Work Unit\machine3_play" DurationType="OneShot" DurationMin="5.303197" DurationMax="5.303197">
+					<IncludedMemoryFiles>
+						<File Id="1045292905" Language="SFX">
+							<ShortName>machine3.wav</ShortName>
+							<Path>SFX\machine3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1034545514" Name="machine3_stop" ObjectPath="\Events\Default Work Unit\machine3_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="627309441" Name="machine4_play" ObjectPath="\Events\Default Work Unit\machine4_play" DurationType="OneShot" DurationMin="10.003396" DurationMax="10.003396">
+					<IncludedMemoryFiles>
+						<File Id="220283619" Language="SFX">
+							<ShortName>machine4.wav</ShortName>
+							<Path>SFX\machine4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2947269463" Name="machine4_stop" ObjectPath="\Events\Default Work Unit\machine4_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2970461421" Name="rcs1_play" ObjectPath="\Events\Default Work Unit\rcs1_play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="624961312" Language="SFX">
+							<ShortName>rcs1.wav</ShortName>
+							<Path>SFX\rcs1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4087758651" Name="rcs1_stop" ObjectPath="\Events\Default Work Unit\rcs1_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3038623048" Name="rcs2_play" ObjectPath="\Events\Default Work Unit\rcs2_play" DurationType="OneShot" DurationMin="1.001134" DurationMax="1.001134">
+					<IncludedMemoryFiles>
+						<File Id="111668973" Language="SFX">
+							<ShortName>rcs2.wav</ShortName>
+							<Path>SFX\rcs2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1121326010" Name="rcs2_stop" ObjectPath="\Events\Default Work Unit\rcs2_stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3086540886" Name="stopall" ObjectPath="\Events\Default Work Unit\stopall" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,23 @@
+@new("Kesa_Euclid")
+:experiments {
+    DisplayName: "Kesa/Science/Experiments/Euclid";
+    DisplayRequirements: "Kesa/Science/Experiments/Euclid/Requirements";
+    ExperimentType: "DataType";
+    DataReportDisplayName: "Kesa/Science/Experiments/Euclid/ReportNameData";
+    DataFlavorDescriptions: [
+        {
+            ResearchLocationID: "Default",
+            LocalizationTag: "Science/Experiments/OrbitalSurvey/Data/Flavor/Default"
+        }
+    ];    
+    ValidLocations: [
+        {
+            BodyName: "Kerbin",
+            ScienceSituation: "HighOrbit",
+            RequiresRegion: false,
+            ScienceRegion: ""
+        },
+    ];
+    DataValue: 40;
+    TransmissionSize: 100;
+}

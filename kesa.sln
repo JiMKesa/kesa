@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kesa", "src\kesa\kesa.csproj", "{853F5DA8-FD89-48F5-A999-B24C26CB13D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kesa.Unity", "src\kesa.Unity\kesa.Unity.csproj", "{33758B30-7A89-4D3D-89EF-A491FDE1FBFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Deploy|Any CPU = Deploy|Any CPU
+		DeployAndRun|Any CPU = DeployAndRun|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{853F5DA8-FD89-48F5-A999-B24C26CB13D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853F5DA8-FD89-48F5-A999-B24C26CB13D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853F5DA8-FD89-48F5-A999-B24C26CB13D7}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{853F5DA8-FD89-48F5-A999-B24C26CB13D7}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{853F5DA8-FD89-48F5-A999-B24C26CB13D7}.DeployAndRun|Any CPU.ActiveCfg = DeployAndRun|Any CPU
+		{853F5DA8-FD89-48F5-A999-B24C26CB13D7}.DeployAndRun|Any CPU.Build.0 = DeployAndRun|Any CPU
+		{853F5DA8-FD89-48F5-A999-B24C26CB13D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853F5DA8-FD89-48F5-A999-B24C26CB13D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33758B30-7A89-4D3D-89EF-A491FDE1FBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33758B30-7A89-4D3D-89EF-A491FDE1FBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33758B30-7A89-4D3D-89EF-A491FDE1FBFB}.Deploy|Any CPU.ActiveCfg = Deploy|Any CPU
+		{33758B30-7A89-4D3D-89EF-A491FDE1FBFB}.Deploy|Any CPU.Build.0 = Deploy|Any CPU
+		{33758B30-7A89-4D3D-89EF-A491FDE1FBFB}.DeployAndRun|Any CPU.ActiveCfg = DeployAndRun|Any CPU
+		{33758B30-7A89-4D3D-89EF-A491FDE1FBFB}.DeployAndRun|Any CPU.Build.0 = DeployAndRun|Any CPU
+		{33758B30-7A89-4D3D-89EF-A491FDE1FBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33758B30-7A89-4D3D-89EF-A491FDE1FBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

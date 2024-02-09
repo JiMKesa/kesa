@@ -1,0 +1,37 @@
+{
+  "spec": "2.0",
+  "mod_id": "kesa",
+  "author": "JiMKesa",
+  "name": "kesa",
+  "description": "Kesa Agency Mod",
+  "source": "https://github.com/JiMKesa/kesa.git",
+  "version": "1.1.30",
+  "version_check": "https://raw.githubusercontent.com/JiMKesa/kesa/main/src/kesa/kesa.csproj",
+  "ksp2_version": {
+    "min": "0.2.1",
+    "max": "*"
+  },
+  "dependencies": [
+    {
+      "id":  "com.github.x606.spacewarp",
+      "version": {
+        "min": "1.9.1",
+        "max": "*"
+      }
+    },
+	{
+      "id":  "PatchManager",
+      "version": {
+        "min": "0.9.3",
+        "max": "*"
+      }
+    },
+    {
+      "id": "lfo",
+      "version": {
+        "min": "1.0.0",
+        "max": "*"
+      }
+    }
+  ]
+}

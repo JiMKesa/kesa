@@ -1,0 +1,113 @@
+{
+  "PartName": "freebooster_m",
+  "PlumeConfigs": {
+    "Plume": [
+      {
+        "MeshPath": "Flames",
+        "TargetGameObject": "vfx1",
+        "ShaderSettings": {
+          "ShaderName": "LFO/Additive",
+          "ShaderParams": {
+            "_Brightness": 10.0,
+            "_StartTint": {
+              "r": 1.0,
+              "g": 0.753237069,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "_EndTint": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_TintFalloff": 0.3,
+            "_NoiseTex": "fx-noise-4",
+            "_NoiseContrast": 4.38,
+            "_Speed": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "w": 0.0
+            },
+            "_Fresnel": 3.4,
+            "_Falloff": 4.51,
+            "_FalloffStart": 5.0,
+            "_FalloffStartPosition": -0.29,
+            "_LinearExpansion": 0.55,
+            "_QuadraticExpansion": -0.28
+          }
+        },
+        "Position": {
+          "x": -0.02604,
+          "y": -0.0517,
+          "z": 0.0255
+        },
+        "Scale": {
+          "x": 0.014,
+          "y": 0.014,
+          "z": 0.05
+        },
+        "Rotation": {
+          "x": 270.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "FloatParams": []
+      },
+      {
+        "MeshPath": "Flames",
+        "TargetGameObject": "vfx2",
+        "ShaderSettings": {
+          "ShaderName": "LFO/Additive",
+          "ShaderParams": {
+            "_Brightness": 10.0,
+            "_StartTint": {
+              "r": 1.0,
+              "g": 0.753237069,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "_EndTint": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_TintFalloff": 0.3,
+            "_NoiseTex": "fx-noise-4",
+            "_NoiseContrast": 4.38,
+            "_Speed": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "w": 0.0
+            },
+            "_Fresnel": 3.4,
+            "_Falloff": 4.51,
+            "_FalloffStart": 5.0,
+            "_FalloffStartPosition": -0.29,
+            "_LinearExpansion": 0.55,
+            "_QuadraticExpansion": -0.28
+          }
+        },
+        "Position": {
+          "x": -0.02604,
+          "y": -0.0517,
+          "z": -0.0255
+        },
+        "Scale": {
+          "x": 0.014,
+          "y": 0.014,
+          "z": 0.05
+        },
+        "Rotation": {
+          "x": 270.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "FloatParams": []
+      }
+    ]
+  }
+}

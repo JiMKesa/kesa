@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1810109015
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3e5c2289e17af063d29d480c8a7ac763
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Mod/_Textures/Distortion_1.png
+Dependencies: []

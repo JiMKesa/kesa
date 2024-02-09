@@ -1,0 +1,162 @@
+<linker>
+  <assembly fullname="AK.Wwise.Unity.API.WwiseTypes, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="WwiseEventReference" preserve="all" />
+    <type fullname="AK.Wwise.Event" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="AK.Wwise.Unity.MonoBehaviour, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AkGameObj" preserve="all" />
+    <type fullname="AkGameObjListenerList" preserve="nothing" serialized="true" />
+    <type fullname="AkGameObjPositionOffsetData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AnimationSoundHandler" preserve="all" />
+    <type fullname="EditorAttachNodeWidget" preserve="all" />
+    <type fullname="KSP.Audio.PartScienceAudio" preserve="all" />
+    <type fullname="KSP.CorePartData" preserve="all" />
+    <type fullname="KSP.Modules.Module_Color" preserve="all" />
+    <type fullname="KSP.Modules.Module_Command" preserve="all" />
+    <type fullname="KSP.Modules.Module_CrewedInterior" preserve="all" />
+    <type fullname="KSP.Modules.Module_DataTransmitter" preserve="all" />
+    <type fullname="KSP.Modules.Module_Deployable" preserve="all" />
+    <type fullname="KSP.Modules.Module_Drag" preserve="all" />
+    <type fullname="KSP.Modules.Module_Engine" preserve="all" />
+    <type fullname="KSP.Modules.Module_Fairing" preserve="all" />
+    <type fullname="KSP.Modules.Module_Generator" preserve="all" />
+    <type fullname="KSP.Modules.Module_Gimbal" preserve="all" />
+    <type fullname="KSP.Modules.Module_RCS" preserve="all" />
+    <type fullname="KSP.Modules.Module_ReactionWheel" preserve="all" />
+    <type fullname="KSP.Modules.Module_ReinforcedConnection" preserve="all" />
+    <type fullname="KSP.Modules.Module_ResourceCapacities" preserve="all" />
+    <type fullname="KSP.Modules.Module_ScienceExperiment" preserve="all" />
+    <type fullname="KSP.Modules.Module_SolarPanel" preserve="all" />
+    <type fullname="KSP.Modules.Module_WheelBase" preserve="all" />
+    <type fullname="KSP.Modules.Module_WheelLock" preserve="all" />
+    <type fullname="KSP.Modules.Module_WheelSuspension" preserve="all" />
+    <type fullname="KSP.VFX.FlameoutVFXData" preserve="all" />
+    <type fullname="KSP.VFX.RCSVFXManager" preserve="all" />
+    <type fullname="KSP.VFX.Reentry.ReentryMesh" preserve="all" />
+    <type fullname="KSP.VFX.ThrottleBlendshapeData" preserve="all" />
+    <type fullname="KSP.VFX.ThrottleLightData" preserve="all" />
+    <type fullname="KSP.VFX.ThrottleParticleSystemData" preserve="all" />
+    <type fullname="KSP.VFX.ThrottleVFXManager" preserve="all" />
+    <type fullname="KSPPartAudio" preserve="all" />
+    <type fullname="KSPPartAudioRTPCMapping" preserve="all" />
+    <type fullname="KSPPartEngineAudio" preserve="all" />
+    <type fullname="KSPVFXAudio" preserve="all" />
+    <type fullname="Module_AnimStateInformer" preserve="all" />
+    <type fullname="DragCube" preserve="nothing" serialized="true" />
+    <type fullname="FloatCurve" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Color" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Command" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Command/ControlPoint" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_CrewedInterior" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Deployable" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Deployable/DeployState" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Deployable/RotationMode" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Deployable/TrackingMode" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Drag" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Engine" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Engine/EngineMode" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Fairing" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Gimbal" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_ModuleGenerator" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_RCS" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_ReactionWheel" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_ReactionWheel/ReactionWheelState" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_ReinforcedConnection" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_ResourceCapacities" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_ScienceExperiment" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_SolarPanel" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Transmitter" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_WheelBase" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_WheelLock" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_WheelSuspension" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.ExperimentConfiguration" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.GeneratorStatus" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.PropellantDefinition" preserve="nothing" serialized="true" />
+    <type fullname="KSP.OAB.MirrorTechnique" preserve="nothing" serialized="true" />
+    <type fullname="KSP.OAB.OABEditorPartCategory" preserve="nothing" serialized="true" />
+    <type fullname="KSP.OAB.OABOrientation" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Sim.Definitions.AttachNodeDefinition" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Sim.Definitions.AttachRules" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Sim.Definitions.ModuleDataList" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Sim.Definitions.PartCore" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Sim.Definitions.PartData" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Sim.Definitions.PartModuleResourceSetting" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Sim.Definitions.SerializedModuleData" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Sim.Definitions.SerializedPartModule" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Sim.Definitions.SerializedResourceInfo" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Sim.ResourceSystem.ContainedResourceDefinition" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Sim.ResourceSystem.ResourceFlowRequestHandle" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Sim.impl.PartOwnerBehavior/JointConnection" preserve="nothing" serialized="true" />
+    <type fullname="KSP.VFX.Reentry.ReentryGroupData" preserve="nothing" serialized="true" />
+    <type fullname="KSP.VFX.Reentry.ReentryMeshGroupType" preserve="nothing" serialized="true" />
+    <type fullname="KSP.VFX.ThrottleBlendshapeData/BlendshapeShaderColorParam" preserve="nothing" serialized="true" />
+    <type fullname="KSP.VFX.ThrottleBlendshapeData/BlendshapeShaderFloatParam" preserve="nothing" serialized="true" />
+    <type fullname="KSP.VFX.ThrottleVFXManager/EngineEffect" preserve="nothing" serialized="true" />
+    <type fullname="KSP.VFX.ThrottleVFXManager/FXActionEvent" preserve="nothing" serialized="true" />
+    <type fullname="KSP.VFX.ThrottleVFXManager/FXModeActionEvent" preserve="nothing" serialized="true" />
+    <type fullname="KSPPartAudio/Sounds" preserve="nothing" serialized="true" />
+    <type fullname="KSPPartAudioRTPCPair" preserve="nothing" serialized="true" />
+    <type fullname="KSPPartAudioRTPCs.KSPPartAudioRTPCBase" preserve="nothing" serialized="true" />
+    <type fullname="KSPPartEngineAudio/EngineSounds" preserve="nothing" serialized="true" />
+    <type fullname="KSPPartEngineAudio/SecondaryEngineSounds" preserve="nothing" serialized="true" />
+    <type fullname="Vector3d" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="lfo.shared, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="LFO.Shared.Components.LFOThrottleData" preserve="all" />
+    <type fullname="LFO.Shared.Components.LFOThrottleDataMasterGroup" preserve="all" />
+    <type fullname="LFO.Shared.Components.LFOVolume" preserve="all" />
+    <type fullname="LFO.Shared.Configs.PlumeConfig" preserve="nothing" serialized="true" />
+    <type fullname="LFO.Shared.Configs.ShaderConfig" preserve="nothing" serialized="true" />
+    <type fullname="LFO.Shared.ShaderEditor.CurveType" preserve="nothing" serialized="true" />
+    <type fullname="LFO.Shared.ShaderEditor.FloatParam" preserve="nothing" serialized="true" />
+    <type fullname="LFO.Shared.ShaderEditor.ParamName" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.Avatar" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LODGroup" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.VehiclesModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.WheelCollider" preserve="all" />
+  </assembly>
+</linker>

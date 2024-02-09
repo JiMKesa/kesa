@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 596628998
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: lfo-resources
+      Dependencies: {}
+    Info_1:
+      Name: 320b1ea336fc159df8685ca8b5ef9c4e.bundle
+      Dependencies: {}
+    Info_2:
+      Name: a7980aa08cbbcbede717398910d4c53b.bundle
+      Dependencies: {}
+    Info_3:
+      Name: kesa_ui.bundle
+      Dependencies: {}

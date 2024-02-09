@@ -1,0 +1,110 @@
+{
+  "partName": "epc_sb",
+  "PlumeConfigs": {
+    "Plume": [
+      {
+        "meshPath": "Flames",
+        "targetGameObject": "vfx1",
+        "ShaderSettings": {
+          "ShaderName": "LFO/Additive",
+          "ShaderParams": {
+            "_Brightness": 10.0,
+            "_StartTint": {
+              "r": 1.0,
+              "g": 0.752,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "_EndTint": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_TintFalloff": 0.908,
+            "_Noise": 0.319,
+            "_NoiseTex": "fx-noise-4",
+            "_NoiseContrast": 5.0,
+            "_Speed": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "w": 0.0
+            },
+            "_Fresnel": 1.48,
+            "_Falloff": 4.37,
+            "_FalloffStart": 3.94,
+            "_QuadraticExpansion": 0.046
+          }
+        },
+        "Position": {
+          "x": 0.0019,
+          "y": -0.0042,
+          "z": 0.0255
+        },
+        "Scale": {
+          "x": 0.09,
+          "y": 0.09,
+          "z": 0.3
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 180.0,
+          "z": 180.0
+        },
+        "FloatParams": []
+      },
+      {
+        "meshPath": "vfx_exh_bell_j_01_0",
+        "targetGameObject": "vfx2",
+        "ShaderSettings": {
+          "ShaderName": "LFO/Additive",
+          "ShaderParams": {
+            "_Brightness": 10.0,
+            "_StartTint": {
+              "r": 0.745283,
+              "g": 0.737537265,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "_EndTint": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_TintFalloff": 0.42,
+            "_Noise": 0.797,
+            "_NoiseTex": "fx-noise-1",
+            "_NoiseContrast": 5.0,
+            "_Speed": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "w": 0.0
+            },
+            "_Fresnel": 0.31,
+            "_Falloff": 4.0,
+            "_FalloffStart": 5.0
+          }
+        },
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -0.015
+        },
+        "Scale": {
+          "x": 0.0006,
+          "y": 0.0006,
+          "z": 0.0006
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 180.0,
+          "z": 180.0
+        },
+        "FloatParams": []
+      }
+    ]
+  }
+}
