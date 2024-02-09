@@ -2,7 +2,7 @@
     +Module_SpaceObs {
         +Data_SpaceObs {
 			UrlPic: "https://apod.com/feed.rss";
-			DaysObj: 4;
+			DaysObj: 3;
 			Deployable: true;
 			RequiredResource: {
                 Rate: 0.1,
