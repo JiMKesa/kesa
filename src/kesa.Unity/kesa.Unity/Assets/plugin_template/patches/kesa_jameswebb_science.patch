@@ -1,0 +1,23 @@
+@new("Kesa_JamesWebb")
+:experiments {
+    DisplayName: "Kesa/Science/Experiments/JamesWebb";
+    DisplayRequirements: "Kesa/Science/Experiments/JamesWebb/Requirements";
+    ExperimentType: "DataType";
+    DataReportDisplayName: "Kesa/Science/Experiments/JamesWebb/ReportNameData";
+    DataFlavorDescriptions: [
+        {
+            ResearchLocationID: "Default",
+            LocalizationTag: "Science/Experiments/OrbitalSurvey/Data/Flavor/Default"
+        }
+    ];    
+    ValidLocations: [
+        {
+            BodyName: "Kerbin",
+            ScienceSituation: "HighOrbit",
+            RequiresRegion: false,
+            ScienceRegion: ""
+        },
+    ];
+    DataValue: 50;
+    TransmissionSize: 100;
+}

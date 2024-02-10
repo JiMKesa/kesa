@@ -1,0 +1,149 @@
+Key,Type,Desc,English,French,Chinese (Simplified)
+
+Parts/Title/a6w,Text,,"A6WHEEL","A6WHEEL","A6WHEEL"
+Parts/Subtitle/a6w,Text,,"Reaction wheel","Roue de réaction","动量轮"
+Parts/Manufacturer/a6w,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/a6w,Text,,"A giant reaction wheel for rocket","Une roue de réaction géante pour fusée","一个巨大的动量轮"
+
+Parts/Title/cluster,Text,,"CLUSTER","CLUSTER","CLUSTER"
+Parts/Subtitle/cluster,Text,,"CLUSTER Satellite","Satellite CLUSTER","星簇卫星"
+Parts/Manufacturer/cluster,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/cluster,Text,,"Scientific observation satellite in constellation","Satellite d'observation scientique en constellation","一系列科学观测卫星"
+
+Parts/Title/clustersp,Text,,"CSP-CLUSTER","CSP-CLUSTER","CSP-CLUSTER"
+Parts/Subtitle/clustersp,Text,,"CLUSTER Curved Solar Panel","Panneau Solaire Incurvé CLUSTER","星簇弧形太阳能板"
+Parts/Manufacturer/clustersp,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/clustersp,Text,,"Solar panel for CLUSTER Satellite","Panneau solaire pour le satellite CLUSTER","星簇卫星使用的太阳能板"
+
+Parts/Title/da-1,Text,,"DA-1","DA-1","DA-1"
+Parts/Subtitle/da-1,Text,,"DA-1 Directional antenna ","Antenne directionnelle DA-1","DA-1定向天线"
+Parts/Manufacturer/da-1,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/da-1,Text,,"Directionnal antenna 50Gm","Antenne directionnelle 50Gm","定向天线50Gm"
+
+Parts/Title/epc_m,Text,,"EPC-M","EPC-M","EPC-M"
+Parts/Subtitle/epc_m,Text,,"Medium solid propellant thruster","Propulseur moyen à ergol solide","中型固体燃料推进器"
+Parts/Manufacturer/epc_m,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/epc_m,Text,,"High thrust booster for rocket launch","Propulseur à forte poussée pour lancement de fusée","用于发射的大推力助推器"
+
+Parts/Title/epc_s,Text,,"EPC-S","EPC-S","EPC-S"
+Parts/Subtitle/epc_s,Text,,"Tiny solid propellant thruster","Propulseur petit à ergol solide","微型固体燃料推进器"
+Parts/Manufacturer/epc_s,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/epc_s,Text,,"High thrust booster for rocket launch","Propulseur à forte poussée pour lancement de fusée","用于发射的大推力助推器"
+
+Parts/Title/epc_sb,Text,,"EPCSB-M","EPCSB-M","EPCSB-M"
+Parts/Subtitle/epc_sb,Text,,"Tiny solid rocket booster","Petit propulseur de fusée solide","微型固体火箭助推器"
+Parts/Manufacturer/epc_sb,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/epc_sb,Text,,"A tiny solid rocket booster for EPC boosters with a very short burn-duration but a great amount of thrust","Un petit propulseur de fusée à solide pour les boosters EPC avec une durée de combustion très courte mais une grande poussée","用于助推低温芯级的微型固体火箭助推器，燃烧持续时间很短，但推力很大"
+
+Parts/Title/euclid,Text,,"EUCLID","EUCLID","EUCLID"
+Parts/Subtitle/euclid,Text,,"EUCLID Space Telescope","Télescope spatial EUCLID","“欧几里德”空间望远镜"
+Parts/Manufacturer/euclid,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/euclid,Text,,"Euclid is a space telescope whose mission is to help determine the origin of the accelerating expansion of the Universe and the nature of its source called dark energy.","Euclid est un télescope spatial qui a pour mission de contribuer à déterminer l'origine de l'accélération de l'expansion de l'Univers et la nature de sa source appelée énergie sombre.","“欧几里德”是一台太空望远镜，其任务是帮助确定宇宙加速膨胀的起源及其暗能量来源的性质。"
+
+Parts/Title/freebooster_m,Text,,"FBOOST-M","FBOOST-M","FBOOST-M"
+Parts/Subtitle/freebooster_m,Text,,"Medium  solid rocket booster","Propulseur moyen de fusée solide","中型固体火箭助推器"
+Parts/Manufacturer/freebooster_m,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/freebooster_m,Text,,"A medium solid rocket booster with a very short burn-duration but a great amount of thrust","Un propulseur moyen de fusée à solide avec une durée de combustion très courte mais une grande poussée","一种中型固体火箭助推器，燃烧持续时间很短，但推力很大"
+
+Parts/Title/freebooster_xl,Text,,"FBOOST-XL","FBOOST-XL","FBOOST-XL"
+Parts/Subtitle/freebooster_xl,Text,,"Giant solid rocket booster","Propulseur géant de fusée solide","大型固体火箭助推器"
+Parts/Manufacturer/freebooster_xl,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/freebooster_xl,Text,,"A giant solid rocket booster with a very short burn-duration but a great amount of thrust","Un propulseur géant de fusée à solide avec une durée de combustion très courte mais une grande poussée","一种大型固体火箭助推器，燃烧持续时间很短，但推力很大"
+
+Parts/Title/freebooster_xs,Text,,"FBOOST-XS","FBOOST-XS","FBOOST-XS"
+Parts/Subtitle/freebooster_xs,Text,,"Tiny solid rocket booster","Petit propulseur de fusée solide","微型固体火箭助推器"
+Parts/Manufacturer/freebooster_xs,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/freebooster_xs,Text,,"A tiny solid rocket booster with a very short burn-duration but a great amount of thrust","Un petit propulseur de fusée à solide avec une durée de combustion très courte mais une grande poussée","一种小型固体火箭助推器，燃烧持续时间很短，但推力很大"
+
+Parts/Title/jameswebb,Text,,"JAMES WEBB","JAMES WEBB","JAMES WEBB"
+Parts/Subtitle/jameswebb,Text,,"James Webb Telescope","Telescope James Webb","詹姆斯·韦布空间望远镜"
+Parts/Manufacturer/jameswebb,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/jameswebb,Text,,"James Webb is a space telescope serving as an observatory operating primarily in the infrared","James Webb est un téléscope spatial servant d'observatoire fonctionnant principalement dans l'infrarouge","“詹姆斯·韦布”是一台太空望远镜，主要用于红外观测"
+
+Parts/Title/juice,Text,,"JUICE","JUICE","JUICE"
+Parts/Subtitle/juice,Text,,"Juice Icy Moons Explorer (Juice) ","Juice Icy Moons Explorer (Juice) ","木星冰卫星探测器（Juice）"
+Parts/Manufacturer/juice,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/juice,Text,,"Juice probe for exploration","La sonde Juice pour exploration","Juice探测器"
+
+Parts/Title/oa-1,Text,,"OA-1","OA-1","OA-1"
+Parts/Subtitle/oa-1,Text,,"OA-1 omni antenna","Antenne omnidirectionnelle OA-1","OA-1全向天线"
+Parts/Manufacturer/oa-1,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/oa-1,Text,,"Omni antenna 50Mm","Antenne omnidirectionnelle 50Mm","全向天线50Mm"
+
+Parts/Title/prometheus,Text,,"PROMETHEUS","PROMETHEUS","PROMETHEUS"
+Parts/Subtitle/prometheus,Text,,"PROMETHEUS Engine","Propulsion PROMETHEUS","“普罗米修斯”引擎"
+Parts/Manufacturer/prometheus,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/prometheus,Text,,"Rocket engine reusable at lower cost with most 3D printable pieces","Moteur de fusée réutilisable à moindre coût avec la plupart des pièces imprimables en 3D","由于大多数部件可以3D打印，这款引擎能够以较低的成本重复使用"
+
+Parts/Title/rcs_m,Text,,"RCS5-M","RCS5-M","RCS5-M"
+Parts/Subtitle/rcs_m,Text,,"RCS thrusters 5 axis","Propulseurs RCS 5 axes","5轴RCS推进器"
+Parts/Manufacturer/rcs_m,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/rcs_m,Text,,"RCS monopropellant thrusters 5 axis used for spaceship rotation and translation movement","Propulseurs monopropulseurs RCS 5 axes utilisés pour la rotation et le mouvement de translation du vaisseau spatial","用于飞船旋转和平移姿态调整的5轴RCS单组元推进器"
+
+Parts/Title/rcs_xs,Text,,"RCS5-XS","RCS5-XS","RCS5-XS"
+Parts/Subtitle/rcs_xs,Text,,"RCS thrusters 5 axis","Propulseurs RCS 5 axes","5轴RCS推进器"
+Parts/Manufacturer/rcs_xs,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/rcs_xs,Text,,"RCS monopropellant thrusters 5 axis used for spaceship rotation and translation movement","Propulseurs monopropulseurs RCS 5 axes utilisés pour la rotation et le mouvement de translation du vaisseau spatial","用于飞船旋转和平移姿态调整的5轴RCS单组元推进器"
+
+Parts/Title/rit2x,Text,,"RIT-2X","RIT-2X","RIT-2X"
+Parts/Subtitle/rit2x,Text,,"RIT-2X Xenon Engine","Propulsion au Xénon RIT-2X","RIT-2X氙气引擎"
+Parts/Manufacturer/rit2x,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/rit2x,Text,,"A tiny engine with high ISP ant low thrust 5N","Une petite propulsion avec une poussée faible de 5N mais une excellent impulsion pécifique","一种具有5牛小推力、高ISP的小型引擎"
+
+Parts/Title/rosettaleg,Text,,"PHILAE-LEG","PHILAE-LEG","PHILAE-LEG"
+Parts/Subtitle/rosettaleg,Text,,"Landing Leg","Train atterrissage","着陆支架"
+Parts/Manufacturer/rosettaleg,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/rosettaleg,Text,,"Telescopic landing gear built for Philae lander","Train d'atterrissage telescopique conçu pour l'atterriseur Philae","为“菲莱”号（Philae）着陆器特制的伸缩式着陆支架"
+
+Parts/Title/rosettalegsupport,Text,,"PHILAE-SUPP","PHILAE-SUPP","PHILAE-SUPP"
+Parts/Subtitle/rosettalegsupport,Text,,"Landing Leg Support","Support de Train d'atterrissage","着陆支架连接器"
+Parts/Manufacturer/rosettalegsupport,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/rosettalegsupport,Text,,"Landing gear support built for Philae Lander","Support de train d'atterrissage conçu pour l'atterrisseur Philae","为“菲莱”号（Philae）着陆器特制的着陆支架连接器"
+
+Parts/Title/vinci,Text,,"VINCI","VINCI","VINCI"
+Parts/Subtitle/vinci,Text,,"VINCI Engine","Propulsion VINCI","“胜利”引擎"
+Parts/Manufacturer/vinci,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/vinci,Text,,"New generation upper stage propulsion","Propulsion d'étage supérieur de nouvelle génération","新一代上面级推进器"
+
+Parts/Title/vulcain,Text,,"VULCAIN 2","VULCAIN 2","VULCAIN 2"
+Parts/Subtitle/vulcain,Text,,"VULCAIN 2 Engine","Propulsion VULCAIN 2","“火神2号”引擎"
+Parts/Manufacturer/vulcain,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/vulcain,Text,,"VULCAIN 2 Engine for Ariane Rocket","Propulsion VULCAIN 2 pour fusée Ariane","阿丽亚娜火箭的“火神2号”引擎"
+
+Parts/Title/xntk_s,Text,,"XNTK-XS","XNTK-XS","XNTK-XS"
+Parts/Subtitle/xntk_s,Text,,"XNTK Xenon Container","Réservoir à Xenon XNTK","XNTK氙气罐"
+Parts/Manufacturer/xntk_s,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/xntk_s,Text,,"The XNTK tank contains Xenon. It accompanies light propulsion to the end of the universe.","Le réservoir XNTK contient du Xenon. Il accompagne les propulsions légères jusqu'au bout de l'univers.","XNTK储存氙气。它能够伴随着微量的推力到达宇宙的尽头。"
+
+Parts/Title/xntk_s,Text,,"HWR","HWR","HWR"
+Parts/Subtitle/xntk_s,Text,,"Hubble Wheel Reaction","Roue de réaction Hubble","哈勃动量轮"
+Parts/Manufacturer/xntk_s,Text,,"KESA Agency","KESA Agency","坎星欧空局"
+Parts/Description/xntk_s,Text,,"HWR is a compact reaction wheel to facilitate probes movements.","HWR est une roue de réaction compacte pour faciliter les mouvements des sondes.","HWR是一个紧凑的动量轮，便于探测器移动。"
+
+Kesa/Science/Experiments/JamesWebb,Text,,"Space Observation","Observation Spatiale","空间观测"
+Kesa/Science/Experiments/JamesWebb/Requirements,Text,,"Telescope placed in distant and high orbit","Mise en orbite haute et lointaine du téléscope","望远镜需要放置在较远的高轨道"
+Kesa/Science/Experiments/JamesWebb/ReportNameData,Text,,"Telescope observation report","Rapport d'observation du télescope","望远镜观测报告"
+Kesa/Science/Experiments/JamesWebb/ReportNameSample,Text,,"","",""
+Kesa/Science/Experiments/JamesWebb/Data,Text,,"You have discovered deep space and new galaxies.","Vous avez découvert l'espace lointain et de nouvelles galaxies.","你观测到了遥远的深空和新的星系。"
+
+Kesa/Science/Experiments/Euclid,Text,,"Space Observation","Observation Spatiale","空间观测"
+Kesa/Science/Experiments/Euclid/Requirements,Text,,"Telescope placed in distant and high orbit","Mise en orbite haute et lointaine du téléscope","望远镜需要放置在较远的高轨道"
+Kesa/Science/Experiments/Euclid/ReportNameData,Text,,"Telescope observation report","Rapport d'observation du télescope","望远镜观测报告"
+Kesa/Science/Experiments/Euclid/ReportNameSample,Text,,"","",""
+Kesa/Science/Experiments/Euclid/Data,Text,,"You have discovered the formation of cosmic structures.","Vous avez découvert la formation des structures cosmiques.","你观测到了宇宙结构的形成。"
+
+Kesa/PartModules/SpaceObs/Name,Text,,"Space Obs","Space Obs","太空观测"
+Kesa/PartModules/SpaceObs/Status,Text,,"Status","Status","状态"
+Kesa/PartModules/SpaceObs/Enabled,Text,,"Enabled","Activé","启用"
+
+Kesa/SpaceObs/Status/Enabled,Text,,"Enabled","Activé","启用"
+Kesa/SpaceObs/OAB/Description,Text,,"Space Pictures","Photos Espace","太空图片"
+Kesa/SpaceObs/OAB/ResourcesRequiredTitle,Text,,"Requiered Resources","Energie Requise","所需资源"
+Kesa/SpaceObs/OAB/ResourcesRequiredEntry,Text,,"ElectricCharge","ElectricCharge","电荷"
+
+Kesa/SpaceObs/PartModules/Name,Text,,"Space Obs","Space Obs","Space Obs"
+Kesa/SpaceObs/PartModules/Alert,Text,,"New Kesa Space Obs data received.","Nouvelles données Kesa Space Obs reçues.","收到新的 Kesa Space Obs 数据。"
+
+Kesa/SpaceObs/Window/Popup,Text,,"Pop-Up","Pop-Up","弹出窗口"
+Kesa/SpaceObs/Window/NoData,Text,,"No Data Available","Pas de donnée disponible","无可用数据"
+
