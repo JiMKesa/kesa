@@ -6,7 +6,7 @@
   "description": "Kesa Agency Mod",
   "source": "https://github.com/JiMKesa/kesa.git",
   "version": "1.1.30",
-  "version_check": "https://raw.githubusercontent.com/JiMKesa/kesa/main/src/kesa/kesa.csproj",
+  "version_check": "https://raw.githubusercontent.com/JiMKesa/kesa/main/plugin_template/swinfo.json",
   "ksp2_version": {
     "min": "0.2.1",
     "max": "*"
