@@ -27,9 +27,9 @@ public class PartComponentModule_SpaceObs : PartComponentModule
         if (!DataModules.TryGetByType<Data_SpaceObs>(out _dataSpaceobs))
             // check module exists
             if (!DataModules.TryGetByType<Data_SpaceObs>(out _dataSpaceobs))
-        {
-            return;
-        }
+            {
+                return;
+            }
         // setting today date
         Core.DateOfDay = DateTime.Now.ToString("dd/MM/yyyy");
         var existe = new bool();

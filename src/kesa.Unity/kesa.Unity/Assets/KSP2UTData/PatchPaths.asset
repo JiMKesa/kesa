@@ -37,6 +37,7 @@ MonoBehaviour:
   - rcs_xs
   - a6w
   - hwr
+  - ktank
   Values:
   - plugin_template/patches/%NAME%.patch
   - plugin_template/patches/%NAME%.patch
@@ -62,3 +63,4 @@ MonoBehaviour:
   - plugin_template/patches/%NAME%.patch
   - plugin_template/patches/%NAME%.patch
   - plugin_template/patches/%NAME%.patch
+  - 

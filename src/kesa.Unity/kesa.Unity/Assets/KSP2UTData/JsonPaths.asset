@@ -37,7 +37,9 @@ MonoBehaviour:
   - rcs_xs
   - a6w
   - hwr
+  - ktank
   Values:
+  - '%NAME%.json'
   - '%NAME%.json'
   - '%NAME%.json'
   - '%NAME%.json'

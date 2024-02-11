@@ -1,11 +1,5 @@
 {
   "dependencies": {
-    "com.bbepis.bepinex": {
-      "version": "file:BepInEx_KSP2",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "com.passivepicasso.thunderkit": {
       "version": "https://github.com/PassivePicasso/ThunderKit.git",
       "depth": 0,

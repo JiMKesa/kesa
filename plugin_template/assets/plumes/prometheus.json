@@ -8,7 +8,6 @@
         "ShaderSettings": {
           "ShaderName": "LFO/Additive",
           "ShaderParams": {
-            "_Opacity": 0.612,
             "_Brightness": 5.36,
             "_StartTint": {
               "r": 1.0,
@@ -56,7 +55,7 @@
             "IsDirty": false,
             "ParamName": "_Opacity",
             "UseAtmoCurve": false,
-            "AtmoCurveType": "Base",
+            "AtmoCurveType": 0,
             "AtmoMultiplierCurve": {
               "keys": [
                 {
@@ -66,7 +65,7 @@
                   "outTangent": 0.45,
                   "inWeight": 0.0,
                   "outWeight": 0.1,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 },
                 {
@@ -76,7 +75,7 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 1.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 },
                 {
@@ -86,16 +85,16 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 }
               ],
               "length": 3,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             },
             "UseThrottleCurve": true,
-            "ThrottleCurveType": "Base",
+            "ThrottleCurveType": 0,
             "ThrottleMultiplierCurve": {
               "keys": [
                 {
@@ -105,7 +104,7 @@
                   "outTangent": 1.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 },
                 {
@@ -115,13 +114,13 @@
                   "outTangent": 1.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 }
               ],
               "length": 2,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             }
           }
         ]
@@ -132,7 +131,6 @@
         "ShaderSettings": {
           "ShaderName": "LFO/Additive",
           "ShaderParams": {
-            "_Opacity": 0.849456,
             "_Brightness": 3.29,
             "_StartTint": {
               "r": 1.0,
@@ -182,7 +180,7 @@
             "IsDirty": false,
             "ParamName": "_Opacity",
             "UseAtmoCurve": false,
-            "AtmoCurveType": "Base",
+            "AtmoCurveType": 0,
             "AtmoMultiplierCurve": {
               "keys": [
                 {
@@ -192,7 +190,7 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 },
                 {
@@ -202,16 +200,16 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 }
               ],
               "length": 2,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             },
             "UseThrottleCurve": true,
-            "ThrottleCurveType": "Base",
+            "ThrottleCurveType": 0,
             "ThrottleMultiplierCurve": {
               "keys": [
                 {
@@ -221,7 +219,7 @@
                   "outTangent": 2.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 },
                 {
@@ -231,13 +229,13 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 }
               ],
               "length": 2,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             }
           }
         ]
@@ -248,7 +246,6 @@
         "ShaderSettings": {
           "ShaderName": "LFO/Additive",
           "ShaderParams": {
-            "_Opacity": 0.612,
             "_Brightness": 4.0,
             "_EndTint": {
               "r": 0.972549,
@@ -269,7 +266,7 @@
             "_Falloff": 0.5,
             "_FalloffStart": 1.75,
             "_StartFadeIn": 1.36,
-            "_LenghtwisePosition": -0.00428247452
+            "_LenghtwisePosition": -0.451384842
           }
         },
         "Position": {
@@ -294,7 +291,7 @@
             "IsDirty": false,
             "ParamName": "_Opacity",
             "UseAtmoCurve": false,
-            "AtmoCurveType": "Base",
+            "AtmoCurveType": 0,
             "AtmoMultiplierCurve": {
               "keys": [
                 {
@@ -304,7 +301,7 @@
                   "outTangent": 0.45,
                   "inWeight": 0.0,
                   "outWeight": 0.1,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 },
                 {
@@ -314,7 +311,7 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 1.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 },
                 {
@@ -324,16 +321,16 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 }
               ],
               "length": 3,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             },
             "UseThrottleCurve": true,
-            "ThrottleCurveType": "Base",
+            "ThrottleCurveType": 0,
             "ThrottleMultiplierCurve": {
               "keys": [
                 {
@@ -343,7 +340,7 @@
                   "outTangent": 1.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 },
                 {
@@ -353,13 +350,13 @@
                   "outTangent": 1.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 }
               ],
               "length": 2,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             }
           },
           {
@@ -368,7 +365,7 @@
             "IsDirty": false,
             "ParamName": "_LenghtwisePosition",
             "UseAtmoCurve": false,
-            "AtmoCurveType": "Base",
+            "AtmoCurveType": 0,
             "AtmoMultiplierCurve": {
               "keys": [
                 {
@@ -378,7 +375,7 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 },
                 {
@@ -388,16 +385,16 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 }
               ],
               "length": 2,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             },
             "UseThrottleCurve": true,
-            "ThrottleCurveType": "Base",
+            "ThrottleCurveType": 0,
             "ThrottleMultiplierCurve": {
               "keys": [
                 {
@@ -407,7 +404,7 @@
                   "outTangent": -1.15232551,
                   "inWeight": 0.0,
                   "outWeight": 0.333333343,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 },
                 {
@@ -417,13 +414,13 @@
                   "outTangent": -1.15232551,
                   "inWeight": 0.333333343,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 }
               ],
               "length": 2,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             }
           }
         ]
@@ -434,7 +431,6 @@
         "ShaderSettings": {
           "ShaderName": "LFO/Additive",
           "ShaderParams": {
-            "_Opacity": 0.5445692,
             "_LenghtwiseBrightness": 1.6,
             "_EndTint": {
               "r": 0.4433962,
@@ -487,7 +483,7 @@
             "IsDirty": false,
             "ParamName": "_Opacity",
             "UseAtmoCurve": false,
-            "AtmoCurveType": "Base",
+            "AtmoCurveType": 0,
             "AtmoMultiplierCurve": {
               "keys": [
                 {
@@ -497,7 +493,7 @@
                   "outTangent": 0.481131852,
                   "inWeight": 0.0,
                   "outWeight": 0.0882353,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 },
                 {
@@ -507,16 +503,16 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 }
               ],
               "length": 2,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             },
             "UseThrottleCurve": true,
-            "ThrottleCurveType": "Base",
+            "ThrottleCurveType": 0,
             "ThrottleMultiplierCurve": {
               "keys": [
                 {
@@ -526,7 +522,7 @@
                   "outTangent": 1.173791,
                   "inWeight": 0.0,
                   "outWeight": 0.333333343,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 },
                 {
@@ -536,13 +532,13 @@
                   "outTangent": 1.173791,
                   "inWeight": 0.333333343,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 }
               ],
               "length": 2,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             }
           }
         ]
@@ -555,7 +551,6 @@
         "ShaderSettings": {
           "ShaderName": "LFO/Additive",
           "ShaderParams": {
-            "_Opacity": 0.849456,
             "_Brightness": 6.94,
             "_EndTint": {
               "r": 1.0,
@@ -602,7 +597,7 @@
             "IsDirty": false,
             "ParamName": "_Opacity",
             "UseAtmoCurve": false,
-            "AtmoCurveType": "Base",
+            "AtmoCurveType": 0,
             "AtmoMultiplierCurve": {
               "keys": [
                 {
@@ -612,7 +607,7 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 },
                 {
@@ -622,16 +617,16 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 }
               ],
               "length": 2,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             },
             "UseThrottleCurve": true,
-            "ThrottleCurveType": "Base",
+            "ThrottleCurveType": 0,
             "ThrottleMultiplierCurve": {
               "keys": [
                 {
@@ -641,7 +636,7 @@
                   "outTangent": 2.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 },
                 {
@@ -651,13 +646,13 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 }
               ],
               "length": 2,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             }
           },
           {
@@ -666,7 +661,7 @@
             "IsDirty": false,
             "ParamName": "_QuadraticExpansion",
             "UseAtmoCurve": true,
-            "AtmoCurveType": "Base",
+            "AtmoCurveType": 0,
             "AtmoMultiplierCurve": {
               "keys": [
                 {
@@ -676,7 +671,7 @@
                   "outTangent": -0.6310244,
                   "inWeight": 0.0,
                   "outWeight": 0.333333343,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 },
                 {
@@ -686,16 +681,16 @@
                   "outTangent": -0.6310244,
                   "inWeight": 0.333333343,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 }
               ],
               "length": 2,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             },
             "UseThrottleCurve": false,
-            "ThrottleCurveType": "Base",
+            "ThrottleCurveType": 0,
             "ThrottleMultiplierCurve": {
               "keys": [
                 {
@@ -705,7 +700,7 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 },
                 {
@@ -715,13 +710,13 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 34
                 }
               ],
               "length": 2,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             }
           }
         ]
@@ -734,7 +729,7 @@
         "ShaderSettings": {
           "ShaderName": "LFO/Additive",
           "ShaderParams": {
-            "_Opacity": 0.529653,
+            "_Opacity": 0.5192308,
             "_Brightness": 7.03,
             "_StartTint": {
               "r": 1.0,
@@ -785,7 +780,7 @@
             "IsDirty": false,
             "ParamName": "_Opacity",
             "UseAtmoCurve": false,
-            "AtmoCurveType": "Base",
+            "AtmoCurveType": 0,
             "AtmoMultiplierCurve": {
               "keys": [
                 {
@@ -795,7 +790,7 @@
                   "outTangent": 0.45,
                   "inWeight": 0.0,
                   "outWeight": 0.1,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 },
                 {
@@ -805,7 +800,7 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 1.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 },
                 {
@@ -815,16 +810,16 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 }
               ],
               "length": 3,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             },
             "UseThrottleCurve": true,
-            "ThrottleCurveType": "Base",
+            "ThrottleCurveType": 0,
             "ThrottleMultiplierCurve": {
               "keys": [
                 {
@@ -834,7 +829,7 @@
                   "outTangent": 2.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 },
                 {
@@ -844,13 +839,13 @@
                   "outTangent": 0.0,
                   "inWeight": 0.0,
                   "outWeight": 0.0,
-                  "weightedMode": "None",
+                  "weightedMode": 0,
                   "tangentMode": 0
                 }
               ],
               "length": 2,
-              "preWrapMode": "ClampForever",
-              "postWrapMode": "ClampForever"
+              "preWrapMode": 8,
+              "postWrapMode": 8
             }
           }
         ]
