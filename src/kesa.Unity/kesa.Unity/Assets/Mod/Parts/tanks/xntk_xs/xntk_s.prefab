@@ -479,7 +479,7 @@ GameObject:
   - component: {fileID: 468237209974598600}
   - component: {fileID: 1705310624271659031}
   - component: {fileID: 4464912397954141174}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: xntk_s_lod0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -594,7 +594,7 @@ GameObject:
   - component: {fileID: 4042510841079007807}
   - component: {fileID: 3632448035933218760}
   - component: {fileID: 5269777024959288993}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: xntk_s_lod1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -825,7 +825,7 @@ GameObject:
   - component: {fileID: 6060677856295308762}
   - component: {fileID: 4143574372304878651}
   - component: {fileID: 3163456047120790072}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: xntk_s_lod2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -974,7 +974,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _forceLod0: 0
   _shockwaveDist: 0
-  ReentryRenderers: []
+  ReentryRenderers:
+  - {fileID: 4464912397954141174}
+  - {fileID: 5269777024959288993}
+  - {fileID: 3163456047120790072}
   _partBehavior: {fileID: 0}
   ReentryGroupData:
     Prefab: {fileID: 0}
